@@ -1,1 +1,1 @@
-Hello, I'm a UI/UX designer and this is a personal website built by myself. If you have any questions, please write down on 'Issues'. Also, I would be grateful if you could give me some advice or feedback ( whatever on my design works or on my code :) ).
+Hello, I'm a UI/UX designer and this is a personal website built by myself. If you have any questions, please write down on 'Issues'. Also, I would be grateful if you could give me some advice or feedback ( whatever on my design works or on my code : ) ).
