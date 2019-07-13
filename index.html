@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Zhongwenxuan</title>
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="header_main">
+            <ul class="topnav">
+                <li class="work">
+                    <a href="work/work.html">
+                        WORK
+                    </a>
+                </li>
+                <li class="blog">
+                    <a href="blog/blog.html">
+                        BLOG
+                    </a>
+                </li>
+                <li class="resume">
+                    <a href="resume/resume.html">
+                        RESUME
+                    </a>
+                </li>
+                <li class="about">
+                    <a href="about/about.html">
+                        ABOUT
+                    </a>
+                </li>
+            </ul>
+            <div class="logo">
+                <a href="index.html">
+                    <img src="src/img/svg/logo.svg">
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="banner">
+        <video autoplay loop muted class="bn_video">
+            <source src="src/video/bubble600.mp4" type="video/mp4">
+        </video>
+        <script src="js/jquery-2.1.0.min.js"></script>
+        <script src="js/jquery.ripples.js"></script>
+        <script>
+            $(document).ready(function () {
+                try {
+                    $('.banner').ripples({
+                        resolution: 512,
+                        dropRadius: 20, //px
+                        perturbance: 0.04,
+                    });
+
+                } catch (e) {
+                    $('.error').show().text(e);
+                }
+
+                $('.js-ripples-disable').on('click', function () {
+                    $('.banner').ripples('destroy');
+                    $(this).hide();
+                });
+
+                $('.js-ripples-play').on('click', function () {
+                    $('.banner').ripples('play');
+                });
+
+                $('.js-ripples-pause').on('click', function () {
+                    $('.banner').ripples('pause');
+                });
+
+                // Automatic drops
+                setInterval(function () {
+                    var $el = $(',banner');
+                    var x = Math.random() * $el.outerWidth();
+                    var y = Math.random() * $el.outerHeight();
+                    var dropRadius = 20;
+                    var strength = 0.04 + Math.random() * 0.04;
+
+                    $el.ripples('drop', x, y, dropRadius, strength);
+                }, 400);
+            });
+        </script>
+    </div>
+    <div class="content">
+        <div class="article_wrapper">
+            <a href="work/UED_1.html" class="article">
+                <img src="src/img/png/mobile_nursing_cover.png">
+                <div class="mask">
+                    <p class="article_title">MOBILE NURSING</p>
+                </div>
+            </a>
+            <a href="work/UED_2.html" class="article">
+                <img src="src/img/png/self_service_terminal_cover.png">
+                <div class="mask">
+                    <p class="article_title">HOSPITAL SELF-SERVICE TERMINAL</p>
+                </div>
+            </a>
+            <a href="work/UED_3.html" class="article">
+                <img src="src/img/png/regional_health_care_app_cover.png">
+                <div class="mask">
+                    <p class="article_title">REGIONAL HEALTH CARE APPLICATION</p>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer_main">
+            <div class="footer_work">
+                <div class="title">WORK</div>
+                <div class="item">
+                    <a href="work/work.html">UED</a>
+                    <a href="work/work.html">Illustration</a>
+                    <a href="work/work.html">Photography</a>
+                </div>
+            </div>
+            <div class="footer_blog">
+                <div class="title">BLOG</div>
+                <div class="item">
+                    <a href="blog/blog.html">Article</a>
+                    <a href="blog/blog.html">Notes</a>
+                    <a href="blog/blog.html">Summary</a>
+                </div>
+            </div>
+            <div class="footer_resume">
+                <div class="title">RESUME</div>
+                <div class="item">
+                    <a href="resume/resume.html">Ask for Access</a>
+                </div>
+            </div>
+            <div class="footer_about">
+                <div class="title">About & Contact</div>
+                <div class="discription">I am a UI designer
+                </div>
+                <div class="footer_media">
+                    <a href="mailto:742037750@qq.com"><img src="src/img/svg/email.svg"></a>
+                    <a href="https://dribbble.com/zwx742037750"><img src="src/img/svg/dribbble.svg"></a>
+                    <a href="https://huaban.com/xuanxuanxuan/"><img src="src/img/svg/huaban.svg"></a>
+                    <a href="https://xuanxuanxuan.zcool.com.cn/"><img src="src/img/svg/zcool.svg"></a>
+                    <a href="https://www.douban.com/people/49430060/"><img src="src/img/svg/douban.svg"></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer_copyright">
+            © 2019 Design & code by Wenxuan Zhong 💕
+        </div>
+    </footer>
+</body>
+
+</html>
