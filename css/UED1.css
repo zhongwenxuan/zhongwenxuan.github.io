@@ -1,0 +1,527 @@
+* {
+    box-sizing: border-box;
+    margin: 0 0 0;
+}
+
+/* 重置链接样式 */
+a {
+    text-decoration: none;
+}
+
+a:link {
+    text-decoration: none;
+    color: #000000;
+}
+
+a:active {
+    text-decoration: blink;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #000000
+}
+
+a:hover {
+    text-decoration: none;
+    color: #a883ff;
+}
+
+/* 重置文本样式 */
+h1 {
+    font-size: 2.5rem;
+    color: #031a3f;
+    letter-spacing: 5px;
+    font-weight: 500;
+}
+
+p {
+    color: #031a3f;
+    line-height: 40px;
+    font-size: 16px;
+}
+
+/* header */
+.header {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    height: 60px;
+    width: 100%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+    background-color: rgba(255, 255, 255, 1)
+}
+
+.header_main {
+    position: relative;
+    margin: 0 auto;
+}
+
+.logo {
+    float: left;
+    top: 0;
+    height: 60px;
+    width: 60px;
+    margin-top: -60px;
+    padding: 8px 0 10px;
+    opacity: 0.8;
+}
+
+.topnav {
+    position: relative;
+    text-align: right;
+}
+
+.work,
+.blog,
+.resume,
+.about {
+    text-align: center;
+    line-height: 60px;
+    margin-left: 60px;
+    list-style: none;
+    display: inline-block;
+}
+
+/* content */
+#content {
+    margin: 0 auto;
+}
+
+/* part1 */
+.part1 {
+    margin: 0 auto;
+    max-height: 1000px;
+    background-image: url(../src/img/png/mobile_nursing_part1_bg.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.part1_introduction {
+    margin: 0 auto;
+    max-width: 1600px;
+    padding: 26% 0 30%;
+}
+
+.part1_introduction>p {
+    max-width: 800px;
+    padding: 1% 0 0;
+}
+
+/* part2 */
+.part2 {
+    background-color: rgba(252, 232, 230, 0.5);
+}
+
+.part2_wrapper {
+    margin: 0 auto;
+    max-width: 1600px;
+}
+
+.part2_wrapper>img {
+    padding: 8% 0 3%;
+}
+
+.part2_card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 0 8%
+}
+
+.part2_professional,
+.part2_care,
+.part2_gentle,
+.part2_clean {
+    text-align: center;
+    color: #a2a2b1;
+    line-height: 20px;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+.keyword {
+    color: #031a3f;
+    padding-top: 10px;
+    line-height: 40px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* part3 */
+.part3 {
+    margin: 0 auto;
+    background-image: url(../src/img/png/mobile_nursing_part3_bg.png);
+    background-repeat: no-repeat;
+    background-size: 110%;
+}
+
+.part3_wrapper {
+    margin: 0 auto;
+    padding: 8% 0 8%;
+    max-width: 1600px;
+}
+
+.part3_color {
+    display: flex;
+    padding: 5% 0 0;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.part3_color1,
+.part3_color2,
+.part3_color3,
+.part3_color4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 40px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.part3_color1 {
+    color: #fa7069;
+}
+
+.part3_color2 {
+    color: #031a3f;
+}
+
+.part3_color3 {
+    color: #f99795;
+}
+
+.part3_color4 {
+    color: #c2c2d3;
+}
+
+.circle {
+    padding: 0 0 10px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.color1 {
+    background: #fa7069;
+    box-shadow: 0px 10px 16px 0px rgba(250, 112, 105, 0.2);
+}
+
+.color2 {
+    background: #031a3f;
+    box-shadow: 0px 10px 16px 0px rgba(3, 26, 63, 0.2);
+}
+
+.color3 {
+    background: #fce8e6;
+    box-shadow: 0px 10px 16px 0px rgba(252, 232, 230, 0.7);
+}
+
+.color4 {
+    background: #d0d0d8;
+    box-shadow: 0px 10px 16px 0px rgba(208, 208, 216, 0.5);
+}
+
+.hex {
+    padding-top: 20px;
+}
+
+.RGB {
+    line-height: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    opacity: 0.8;
+}
+
+/* part4 */
+.part4 {
+    margin: 0 auto;
+    background-image: url(../src/img/png/mobile_nursing_part4_bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.part4_wrapper {
+    margin: 0 auto;
+    padding: 8% 0 8%;
+    max-width: 1600px;
+}
+
+.part4_row1 {
+    display: flex;
+    padding: 5% 0 8%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.part4_row2 {
+    display: flex;
+    padding: 8% 0 0;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-top: 1px solid rgba(208, 208, 216, 0.3);
+}
+
+.part4_row1>img {
+    height: 100%;
+}
+
+.part4_row2>img {
+    height: 100%;
+}
+
+/* part5 */
+.part5 {
+    background-color: rgba(252, 232, 230, 0.5);
+}
+
+.part5_wrapper {
+    margin: 0 auto;
+    padding: 5% 0 5%;
+    max-width: 1600px;
+}
+
+.part5_column_wrapper {
+    display: flex;
+    justify-content: space-around;
+    padding: 2% 0 3%;
+}
+
+.part5_column1,
+.part5_column2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.part5_column1>img,
+.part5_column2>img {
+    padding: 20px 0 0;
+}
+
+
+/* part6 */
+.part6 {
+    margin: 0 auto;
+    padding: 5% 0 5%;
+    max-width: 1600px;
+}
+
+.part6_content {
+    margin: 0 auto;
+    display: flex;
+    max-width: 1200px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.part6_content>p {
+    padding: 14% 0 0;
+}
+
+.homepage_show {
+    display: flex;
+    align-items: center;
+}
+
+.homepage_show>img {
+    padding: 0 30px 0;
+}
+
+
+/* 思维导图 */
+#embed_dom{
+    height: 900px;
+    width: 800px;
+}
+
+/* footer */
+footer {
+    position: absolute;
+    min-height: 35%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.footer_main {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.footer_work,
+.footer_blog,
+.footer_resume {
+    margin-top: 50px;
+    margin-right: 18%;
+}
+
+.footer_about {
+    margin-top: 50px;
+}
+
+.title {
+    margin: 0 0 12px;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 1);
+    line-height: 28px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    padding-right: 30%;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+    line-height: 50px;
+}
+
+.item>a:link {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.item>a:visited {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.item>a:hover {
+    color: #a883ff;
+}
+
+.discription {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+    line-height: 28px;
+}
+
+.footer_media {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10% 0 10%;
+}
+
+.footer_media>a {
+    height: 100%;
+    margin-right: 20px;
+}
+
+.footer_media>a:link {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.footer_media>a:visited {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.footer_media>a:hover {
+    color: #a883ff;
+}
+
+.footer_copyright {
+    clear: both;
+    margin: 0 auto;
+    text-align: center;
+    margin: 40px 0 0;
+    font-size: 14px;
+    color: #aaaaaa;
+}
+
+/* 响应式 */
+@media screen and (max-width: 600px) {
+
+    .header_main,
+    .color,
+    .footer_main {
+        max-width: 600px;
+    }
+
+    .topnav {
+        width: 60px;
+        height: 60px;
+        position: absolute;
+        top: 0;
+        left: auto;
+        right: 0;
+        background: rgba(255, 255, 255, 1)url(https://www.easyicon.net/api/resizeApi.php?id=1225479&size=32) no-repeat 10px 11px;
+    }
+
+    .work,
+    .blog,
+    .resume,
+    .about {
+        display: none;
+        /* hide all <li> items */
+        margin: 0;
+    }
+
+    /* on nav hover */
+    .topnav:hover {
+        width: 150px;
+        height: 240px;
+        background-image: none;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+    }
+
+    .topnav:hover li {
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+@media screen and (min-width: 600px) {
+
+    .header_main,
+    .color,
+    .footer_main {
+        min-width: 600px;
+    }
+
+    .article {
+        flex-basis: 48%;
+    }
+
+    .part1 {
+        background-image: url(../src/img/png/mobile_nursing_part1_900bg.png);
+    }
+}
+
+@media screen and (min-width: 900px) {
+
+    .header_main,
+    .color,
+    .footer_main {
+        max-width: 1200px;
+    }
+
+    .article {
+        flex-basis: 32%;
+    }
+
+    .part1 {
+        background-image: url(../src/img/png/mobile_nursing_part1_900bg.png);
+    }
+}
+
+@media screen and (min-width: 1600px) {
+
+    .header_main,
+    .color,
+    .footer_main {
+        max-width: 1600px;
+    }
+
+    .article {
+        flex-basis: 23.8%;
+    }
+
+    .part1 {
+        background-image: url(../src/img/png/mobile_nursing_part1_bg.png);
+    }
+}

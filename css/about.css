@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+    margin: 0 0 0;
+  }
+  
+/* 重置链接样式 */
+a { text-decoration: none; }
+a:link { text-decoration: none; color: #000000; }
+a:active { text-decoration:blink; color: #000000; } 
+a:hover { text-decoration:none; color: #a883ff; } 
+a:visited { text-decoration: none; color: #000000; } 
+
+* {
+  box-sizing: border-box;
+  margin: 0 0 0;
+}
+
+/* 重置链接样式 */
+a {
+  text-decoration: none;
+}
+
+a:link {
+  text-decoration: none;
+  color: #000000;
+}
+
+a:active {
+  text-decoration: blink;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #000000
+}
+
+a:hover {
+  text-decoration: none;
+  color: #a883ff;
+}
+
+/* 响应式布局 */
+@media screen and (min-width: 300px) {
+
+  .tab_div {
+    column-count: 1;
+  }
+}
+
+@media screen and (min-width: 600px) {
+
+  .tab_div {
+    column-count: 2;
+  }
+}
+
+@media screen and (min-width: 900px) {
+
+  .tab_div {
+    column-count: 3;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+
+  .tab_div {
+    column-count: 4;
+  }
+}
+
+/* header */
+.header {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  height: 60px;
+  width: 100%;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+  background-color: rgba(255, 255, 255, 0.8)
+}
+
+.header-main {
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  max-width: 1600px;
+}
+
+.logo {
+  height: 60px;
+  width: 60px;
+  padding: 8px 0 10px;
+  opacity: 0.8;
+}
+
+.topnav {
+  position: absolute;
+  right: 0;
+  display: flex;
+}
+
+.work, .blog,.resume {
+  text-align: center;
+  line-height: 60px;
+  padding: 0 30px 0;
+}
+
+.about {
+  text-align: center;
+  line-height: 60px;
+  padding-left: 30px;
+}
