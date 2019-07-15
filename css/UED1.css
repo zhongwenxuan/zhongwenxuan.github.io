@@ -247,7 +247,7 @@ p {
     padding: 8% 0 8%;
 }
 
-.part4_column_wrapper{
+.part4_column_wrapper {
     display: flex;
     justify-content: space-between;
     padding: 1% 0 8%;
@@ -258,13 +258,13 @@ p {
     width: 36%;
 }
 
-.part4_meaning_wrapper{
+.part4_meaning_wrapper {
     display: flex;
     justify-content: space-between;
     padding: 5% 0 0;
 }
 
-.part4_meaning{
+.part4_meaning {
     color: #a2a2b1;
 }
 
@@ -272,12 +272,12 @@ p {
     width: 48%;
 }
 
-.part4_whole_wrapper{
+.part4_whole_wrapper {
     display: flex;
     justify-content: space-between;
 }
 
-.part4_sketch_wrapper{
+.part4_sketch_wrapper {
     display: flex;
     justify-content: space-between;
     padding: 8% 0 0;
@@ -384,14 +384,13 @@ p {
 }
 
 /* part9 */
-.part9_wrapper {
-    margin: 0 auto;
-    padding: 5% 0 5%;
-}
-
-.part9_content>img{
-    margin: 0 auto;
-    width: 100%;
+.part9 {
+    height: 600px;
+    background-image: url(../src/img/png/mobile_nursing_part9_bg.png);
+    background-repeat: no-repeat;
+    background-size: 140%;
+    background-position-x: center;
+    background-position-y: center;
 }
 
 /* 思维导图 */
@@ -506,7 +505,6 @@ footer {
     .part6_wrapper,
     .part7_wrapper,
     .part8_wrapper,
-    .part9_wrapper,
     .header_main,
     .color,
     .footer_main {
@@ -557,7 +555,6 @@ footer {
     .part6_wrapper,
     .part7_wrapper,
     .part8_wrapper,
-    .part9_wrapper,
     .header_main,
     .color,
     .footer_main {
@@ -583,7 +580,6 @@ footer {
     .part6_wrapper,
     .part7_wrapper,
     .part8_wrapper,
-    .part9_wrapper,
     .header_main,
     .color,
     .footer_main {
@@ -616,7 +612,6 @@ footer {
     .part6_wrapper,
     .part7_wrapper,
     .part8_wrapper,
-    .part9_wrapper,
     .header_main,
     .color,
     .footer_main {
@@ -630,7 +625,7 @@ footer {
     .part2_professional,
     .part2_care,
     .part2_gentle,
-    .part2_clean{
+    .part2_clean {
         flex-basis: 23.8%;
     }
 
