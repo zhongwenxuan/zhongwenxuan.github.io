@@ -98,13 +98,12 @@ p {
     background-repeat: no-repeat;
 }
 
-.part1_introduction {
+.part1_warpper {
     margin: 0 auto;
-    max-width: 1600px;
     padding: 26% 0 30%;
 }
 
-.part1_introduction>p {
+.part1_warpper>p {
     max-width: 800px;
     padding: 1% 0 0;
 }
@@ -116,11 +115,10 @@ p {
 
 .part2_wrapper {
     margin: 0 auto;
-    max-width: 1600px;
 }
 
 .part2_wrapper>img {
-    padding: 8% 0 3%;
+    padding: 8% 0 0;
 }
 
 .part2_card {
@@ -134,6 +132,7 @@ p {
 .part2_care,
 .part2_gentle,
 .part2_clean {
+    padding: 3% 0 0;
     text-align: center;
     color: #a2a2b1;
     line-height: 20px;
@@ -160,7 +159,6 @@ p {
 .part3_wrapper {
     margin: 0 auto;
     padding: 8% 0 8%;
-    max-width: 1600px;
 }
 
 .part3_color {
@@ -247,31 +245,42 @@ p {
 .part4_wrapper {
     margin: 0 auto;
     padding: 8% 0 8%;
-    max-width: 1600px;
 }
 
-.part4_row1 {
+.part4_column_wrapper{
     display: flex;
-    padding: 5% 0 8%;
-    flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center;
+    padding: 1% 0 8%;
 }
 
-.part4_row2 {
+.part4_column1 {
+    text-align: center;
+    width: 36%;
+}
+
+.part4_meaning_wrapper{
     display: flex;
+    justify-content: space-between;
+    padding: 5% 0 0;
+}
+
+.part4_meaning{
+    color: #a2a2b1;
+}
+
+.part4_column2 {
+    width: 48%;
+}
+
+.part4_whole_wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.part4_sketch_wrapper{
+    display: flex;
+    justify-content: space-between;
     padding: 8% 0 0;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    border-top: 1px solid rgba(208, 208, 216, 0.3);
-}
-
-.part4_row1>img {
-    height: 100%;
-}
-
-.part4_row2>img {
-    height: 100%;
 }
 
 /* part5 */
@@ -282,7 +291,6 @@ p {
 .part5_wrapper {
     margin: 0 auto;
     padding: 5% 0 5%;
-    max-width: 1600px;
 }
 
 .part5_column_wrapper {
@@ -306,16 +314,14 @@ p {
 
 
 /* part6 */
-.part6 {
+.part6_wrapper {
     margin: 0 auto;
     padding: 5% 0 5%;
-    max-width: 1600px;
 }
 
 .part6_content {
     margin: 0 auto;
     display: flex;
-    max-width: 1200px;
     justify-content: space-around;
     flex-wrap: wrap;
 }
@@ -333,36 +339,92 @@ p {
     padding: 0 30px 0;
 }
 
+/* part7 */
+.part7_wrapper {
+    margin: 0 auto;
+    padding: 5% 0 5%;
+}
+
+.part7_content {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.part7_content>img {
+    width: 30%;
+    height: 100%;
+}
+
+.part7_content>p {
+    padding: 14% 0 0;
+}
+
+/* part8 */
+.part8_wrapper {
+    margin: 0 auto;
+    padding: 5% 0 5%;
+}
+
+.part8_content {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.part8_content>img {
+    width: 30%;
+    height: 100%;
+}
+
+.part8_content>p {
+    padding: 14% 0 0;
+}
+
+/* part9 */
+.part9_wrapper {
+    margin: 0 auto;
+    padding: 5% 0 5%;
+}
+
+.part9_content>img{
+    margin: 0 auto;
+    width: 100%;
+}
 
 /* 思维导图 */
-#embed_dom{
-    height: 900px;
+#embed_dom {
+    height: 0;
     width: 800px;
 }
 
 /* footer */
 footer {
     position: absolute;
-    min-height: 35%;
+    height: 300px;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.7);
 }
 
 .footer_main {
     display: flex;
-    flex-wrap: wrap;
+    max-width: 1600px;
     margin: 0 auto;
+    font-family: Helvetica, Arial, sans-serif;
 }
 
 .footer_work,
 .footer_blog,
 .footer_resume {
-    margin-top: 50px;
-    margin-right: 18%;
+    margin: 50px 0 0;
+    min-width: 300px;
 }
 
 .footer_about {
-    margin-top: 50px;
+    margin: 50px 0 0;
+    right: 0;
 }
 
 .title {
@@ -376,10 +438,11 @@ footer {
 .item {
     display: flex;
     flex-direction: column;
-    padding-right: 30%;
+    padding-right: 200px;
     font-size: 14px;
+    ;
     color: rgba(255, 255, 255, 0.5);
-    line-height: 50px;
+    line-height: 46px;
 }
 
 .item>a:link {
@@ -394,19 +457,20 @@ footer {
     color: #a883ff;
 }
 
-.discription {
+.about_me {
+    margin: 0 0 40px;
     font-size: 14px;
+    ;
     color: rgba(255, 255, 255, 0.5);
     line-height: 28px;
 }
 
 .footer_media {
     display: flex;
-    flex-wrap: wrap;
-    margin: 10% 0 10%;
 }
 
 .footer_media>a {
+    width: auto;
     height: 100%;
     margin-right: 20px;
 }
@@ -424,7 +488,6 @@ footer {
 }
 
 .footer_copyright {
-    clear: both;
     margin: 0 auto;
     text-align: center;
     margin: 40px 0 0;
@@ -435,6 +498,15 @@ footer {
 /* 响应式 */
 @media screen and (max-width: 600px) {
 
+    .part1_warpper,
+    .part2_wrapper,
+    .part3_wrapper,
+    .part4_wrapper,
+    .part5_wrapper,
+    .part6_wrapper,
+    .part7_wrapper,
+    .part8_wrapper,
+    .part9_wrapper,
     .header_main,
     .color,
     .footer_main {
@@ -477,6 +549,15 @@ footer {
 
 @media screen and (min-width: 600px) {
 
+    .part1_warpper,
+    .part2_wrapper,
+    .part3_wrapper,
+    .part4_wrapper,
+    .part5_wrapper,
+    .part6_wrapper,
+    .part7_wrapper,
+    .part8_wrapper,
+    .part9_wrapper,
     .header_main,
     .color,
     .footer_main {
@@ -494,6 +575,15 @@ footer {
 
 @media screen and (min-width: 900px) {
 
+    .part1_warpper,
+    .part2_wrapper,
+    .part3_wrapper,
+    .part4_wrapper,
+    .part5_wrapper,
+    .part6_wrapper,
+    .part7_wrapper,
+    .part8_wrapper,
+    .part9_wrapper,
     .header_main,
     .color,
     .footer_main {
@@ -504,6 +594,13 @@ footer {
         flex-basis: 32%;
     }
 
+    .part2_professional,
+    .part2_care,
+    .part2_gentle,
+    .part2_clean {
+        flex-basis: 23.8%;
+    }
+
     .part1 {
         background-image: url(../src/img/png/mobile_nursing_part1_900bg.png);
     }
@@ -511,6 +608,15 @@ footer {
 
 @media screen and (min-width: 1600px) {
 
+    .part1_warpper,
+    .part2_wrapper,
+    .part3_wrapper,
+    .part4_wrapper,
+    .part5_wrapper,
+    .part6_wrapper,
+    .part7_wrapper,
+    .part8_wrapper,
+    .part9_wrapper,
     .header_main,
     .color,
     .footer_main {
@@ -518,6 +624,13 @@ footer {
     }
 
     .article {
+        flex-basis: 23.8%;
+    }
+
+    .part2_professional,
+    .part2_care,
+    .part2_gentle,
+    .part2_clean{
         flex-basis: 23.8%;
     }
 

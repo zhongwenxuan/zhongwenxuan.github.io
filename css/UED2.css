@@ -395,94 +395,97 @@ h2 {
 /* footer */
 footer {
     position: absolute;
-    min-height: 35%;
+    height: 300px;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.7);
-}
-
-.footer_main {
+  }
+  
+  .footer_main {
     display: flex;
-    flex-wrap: wrap;
+    max-width: 1600px;
     margin: 0 auto;
-}
-
-.footer_work,
-.footer_blog,
-.footer_resume {
-    margin-top: 50px;
-    margin-right: 18%;
-}
-
-.footer_about {
-    margin-top: 50px;
-}
-
-.title {
+    font-family: Helvetica, Arial, sans-serif;
+  }
+  
+  .footer_work,
+  .footer_blog,
+  .footer_resume {
+    margin: 50px 0 0;
+    min-width: 300px;
+  }
+  
+  .footer_about {
+    margin: 50px 0 0;
+    right: 0;
+  }
+  
+  .title {
     margin: 0 0 12px;
     font-size: 16px;
     font-weight: bold;
     color: rgba(255, 255, 255, 1);
     line-height: 28px;
-}
-
-.item {
+  }
+  
+  .item {
     display: flex;
     flex-direction: column;
-    padding-right: 30%;
+    padding-right: 200px;
     font-size: 14px;
+    ;
     color: rgba(255, 255, 255, 0.5);
-    line-height: 50px;
-}
-
-.item>a:link {
+    line-height: 46px;
+  }
+  
+  .item>a:link {
     color: rgba(255, 255, 255, 0.5);
-}
-
-.item>a:visited {
+  }
+  
+  .item>a:visited {
     color: rgba(255, 255, 255, 0.5);
-}
-
-.item>a:hover {
+  }
+  
+  .item>a:hover {
     color: #a883ff;
-}
-
-.discription {
+  }
+  
+  .about_me {
+    margin: 0 0 40px;
     font-size: 14px;
+    ;
     color: rgba(255, 255, 255, 0.5);
     line-height: 28px;
-}
-
-.footer_media {
+  }
+  
+  .footer_media {
     display: flex;
-    flex-wrap: wrap;
-    margin: 10% 0 10%;
-}
-
-.footer_media>a {
+  }
+  
+  .footer_media>a {
+    width: auto;
     height: 100%;
     margin-right: 20px;
-}
-
-.footer_media>a:link {
+  }
+  
+  .footer_media>a:link {
     color: rgba(255, 255, 255, 0.5);
-}
-
-.footer_media>a:visited {
+  }
+  
+  .footer_media>a:visited {
     color: rgba(255, 255, 255, 0.5);
-}
-
-.footer_media>a:hover {
+  }
+  
+  .footer_media>a:hover {
     color: #a883ff;
-}
-
-.footer_copyright {
-    clear: both;
+  }
+  
+  .footer_copyright {
     margin: 0 auto;
     text-align: center;
     margin: 40px 0 0;
     font-size: 14px;
     color: #aaaaaa;
-}
+  }
 
 /* 响应式 */
 @media screen and (max-width: 600px) {
