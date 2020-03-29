@@ -103,9 +103,17 @@ p {
     padding: 26% 0 30%;
 }
 
-.part1_warpper>p {
-    max-width: 800px;
-    padding: 1% 0 0;
+.brief_introduction
+ {
+    width: 60%;
+    padding: 2% 0 0;
+}
+
+.en_brief_introduction{
+    max-width: 60%;
+    color: #a2a2b1;
+    line-height: 24px;
+    font-size: 14px;
 }
 
 /* part2 */
@@ -323,11 +331,18 @@ p {
     margin: 0 auto;
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;
+
 }
 
-.part6_content>p {
+.home_introduction{ 
     padding: 14% 0 0;
+}
+    
+.en_home_introduction{
+    max-width: 70%;
+    color: #a2a2b1;
+    line-height: 24px;
+    font-size: 14px;
 }
 
 .homepage_show {
@@ -349,7 +364,6 @@ p {
     margin: 0 auto;
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;
 }
 
 .part7_content>img {
@@ -357,8 +371,15 @@ p {
     height: 100%;
 }
 
-.part7_content>p {
-    padding: 14% 0 0;
+.patient_introduction{ 
+    padding-top: 14%;
+    padding-left: 10%;
+}
+    
+.en_patient_introduction{
+    color: #a2a2b1;
+    line-height: 24px;
+    font-size: 14px;
 }
 
 /* part8 */
@@ -371,7 +392,6 @@ p {
     margin: 0 auto;
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;
 }
 
 .part8_content>img {
@@ -379,8 +399,15 @@ p {
     height: 100%;
 }
 
-.part8_content>p {
-    padding: 14% 0 0;
+.call_introduction{ 
+    padding-top: 14%;
+    padding-left: 10%;
+}
+    
+.en_call_introduction{
+    color: #a2a2b1;
+    line-height: 24px;
+    font-size: 14px;
 }
 
 /* part9 */
