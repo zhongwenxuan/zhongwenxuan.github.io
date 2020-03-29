@@ -118,11 +118,17 @@ h2 {
     color: #999999;
 }
 
-.part1>p {
+.brief_introduction {
     color: #666666;
     line-height: 40px;
     margin: 0 0 2%;
     font-size: 16px;
+}
+
+.en_brief_introduction{
+    color: #999999;
+    line-height: 26px;
+    font-size: 14px;
 }
 
 .show1>img {
@@ -330,10 +336,26 @@ h2 {
     margin-left: 12%;
 }
 
-.text2>p {
-    color: #666666;
-    line-height: 40px;
+.text2>h2{
+    padding: 0 0 10px;
+    line-height: 34px;
+}
+
+.en_h2{
+    line-height: 30px;
     font-size: 16px;
+}
+
+.style{
+    color: #666666;
+    line-height: 34px;
+    font-size: 16px;
+}
+
+.en_style{
+    color: #999999;
+    line-height: 26px;
+    font-size: 14px;
 }
 
 /* part3 */
@@ -368,11 +390,11 @@ h2 {
     margin-right: 12%;
 }
 
-.text3>p {
-    color: #666666;
-    line-height: 40px;
-    font-size: 16px;
+.text3>h2{
+    padding: 0 0 10px;
+    line-height: 34px;
 }
+
 
 /* part4 */
 .part4 {
