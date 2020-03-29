@@ -123,12 +123,19 @@ h2 {
     margin: 0 auto;
 }
 
-.discription>p{
+.brief_introduction{
     color: #666666;
-    line-height: 40px;
-    margin: 0 0 2%;
+    line-height: 36px;
     font-size: 16px;
     text-align: left;
+}
+
+.en_brief_introduction{
+    color: #999999;
+    line-height: 32px;
+    font-size: 14px;
+    text-align: left;
+    margin: 0 0 2%;
 }
 
 .show1>img {
