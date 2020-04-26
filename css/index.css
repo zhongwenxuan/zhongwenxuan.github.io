@@ -29,6 +29,11 @@ a:hover {
   color: #a883ff;
 }
 
+/* body */
+body{
+  background:url("src/video/bubble600.mp4") no-repeat center0px;
+}
+
 /* header */
 .header {
   position: fixed;
@@ -72,15 +77,36 @@ a:hover {
   display: inline-block;
 }
 
-/* banner */
-.banner {
-  height: 600px;
-  width: 100%;
+/* video */
+.bn_video {
+  position: fixed; 
+  right:0; 
+  bottom:0;
+  min-width:100%; 
+  min-height:100%; 
+  width: auto;
+  height:auto;
+  z-index:-100; 
+  background-size: cover;
+  opacity: 0.4;
 }
 
-.bn_video {
-  opacity: 0.4;
-  height: 100%;
+/* banner */
+.banner {
+  margin: 15%;
+  display: flex;
+}
+
+.selfportrait{
+  margin: 5% 0 0 15%;
+}
+
+.selfintroduction{
+  margin: 10% 0 0 15%;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #333333;
+  line-height: 50px;
 }
 
 /* content */
