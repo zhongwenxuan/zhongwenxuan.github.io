@@ -30,17 +30,15 @@ a:hover {
 /* 重置文本样式 */
 h1 {
     font-size: 2.5rem;
-    color: #3b3b3d;
+    color: #031a3f;
     letter-spacing: 5px;
     font-weight: 500;
 }
 
-h2 {
-    font-size: 2em;
-    color: #006933;
-    letter-spacing: 5px;
-    font-weight: 300;
-    line-height: 100px;
+p {
+    color: #031a3f;
+    line-height: 40px;
+    font-size: 16px;
 }
 
 /* header */
@@ -52,7 +50,7 @@ h2 {
     height: 60px;
     width: 100%;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
-    background-color: rgba(255, 255, 255, 0.8)
+    background-color: rgba(255, 255, 255, 1)
 }
 
 .header_main {
@@ -89,63 +87,338 @@ h2 {
 /* content */
 #content {
     margin: 0 auto;
-    padding: 60px 0 0;
 }
 
 /* part1 */
 .part1 {
     margin: 0 auto;
-    padding: 4% 0 0;
-    text-align: center;
-    background-color: rgb(231, 231, 231, 0.2);
+    max-height: 1000px;
+    background-image: url(../src/img/png/mobile_nursing_part1_bg.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
-.basic_information {
-    margin: 2% 0 2%;
-    padding: 20px;
-    text-align: center;
-    border-bottom: #d4d6d4 solid 1px;
-}
-
-.table_title {
-    color: #aaaaaa;
-    letter-spacing: 3px;
-    margin-left: 6%;
-}
-
-.table_content {
-    letter-spacing: 2px;
-    color: #999999;
-}
-
-.discription{
-    max-width: 1000px;
+.part1_warpper {
     margin: 0 auto;
+    padding: 26% 0 30%;
 }
 
-.brief_introduction{
-    color: #666666;
-    line-height: 36px;
-    font-size: 16px;
-    text-align: left;
+.brief_introduction
+ {
+    width: 60%;
+    padding: 2% 0 0;
 }
 
 .en_brief_introduction{
-    color: #999999;
-    line-height: 32px;
+    max-width: 60%;
+    color: #a2a2b1;
+    line-height: 24px;
     font-size: 14px;
-    text-align: left;
-    margin: 0 0 2%;
 }
 
-.show1>img {
-    display: block;
+/* part2 */
+.part2 {
+    background-color: rgba(252, 232, 230, 0.5);
+}
+
+.part2_wrapper {
     margin: 0 auto;
-    max-width: 56%;
 }
 
-.part1>iframe{
-    margin: 0 0 5%;
+.part2_wrapper>img {
+    padding: 8% 0 0;
+}
+
+.part2_card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 0 8%
+}
+
+.part2_professional,
+.part2_care,
+.part2_gentle,
+.part2_clean {
+    padding: 3% 0 0;
+    text-align: center;
+    color: #a2a2b1;
+    line-height: 20px;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+.keyword {
+    color: #031a3f;
+    padding-top: 10px;
+    line-height: 40px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* part3 */
+.part3 {
+    margin: 0 auto;
+    background-image: url(../src/img/png/mobile_nursing_part3_bg.png);
+    background-repeat: no-repeat;
+    background-size: 110%;
+}
+
+.part3_wrapper {
+    margin: 0 auto;
+    padding: 8% 0 8%;
+}
+
+.part3_color {
+    display: flex;
+    padding: 5% 0 0;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.part3_color1,
+.part3_color2,
+.part3_color3,
+.part3_color4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 40px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.part3_color1 {
+    color: #fa7069;
+}
+
+.part3_color2 {
+    color: #031a3f;
+}
+
+.part3_color3 {
+    color: #f99795;
+}
+
+.part3_color4 {
+    color: #c2c2d3;
+}
+
+.circle {
+    padding: 0 0 10px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.color1 {
+    background: #fa7069;
+    box-shadow: 0px 10px 16px 0px rgba(250, 112, 105, 0.2);
+}
+
+.color2 {
+    background: #031a3f;
+    box-shadow: 0px 10px 16px 0px rgba(3, 26, 63, 0.2);
+}
+
+.color3 {
+    background: #fce8e6;
+    box-shadow: 0px 10px 16px 0px rgba(252, 232, 230, 0.7);
+}
+
+.color4 {
+    background: #d0d0d8;
+    box-shadow: 0px 10px 16px 0px rgba(208, 208, 216, 0.5);
+}
+
+.hex {
+    padding-top: 20px;
+}
+
+.RGB {
+    line-height: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    opacity: 0.8;
+}
+
+/* part4 */
+.part4 {
+    margin: 0 auto;
+    background-image: url(../src/img/png/mobile_nursing_part4_bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.part4_wrapper {
+    margin: 0 auto;
+    padding: 8% 0 8%;
+}
+
+.part4_column_wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 1% 0 8%;
+}
+
+.part4_column1 {
+    text-align: center;
+    width: 36%;
+}
+
+.part4_meaning_wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 5% 0 0;
+}
+
+.part4_meaning {
+    color: #a2a2b1;
+}
+
+.part4_column2 {
+    width: 48%;
+}
+
+.part4_whole_wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.part4_sketch_wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 8% 0 0;
+}
+
+/* part5 */
+.part5 {
+    background-color: rgba(252, 232, 230, 0.5);
+}
+
+.part5_wrapper {
+    margin: 0 auto;
+    padding: 5% 0 5%;
+}
+
+.part5_column_wrapper {
+    display: flex;
+    justify-content: space-around;
+    padding: 2% 0 3%;
+}
+
+.part5_column1,
+.part5_column2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.part5_column1>img,
+.part5_column2>img {
+    padding: 20px 0 0;
+}
+
+
+/* part6 */
+.part6_wrapper {
+    margin: 0 auto;
+    padding: 5% 0 5%;
+}
+
+.part6_content {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.home_introduction{ 
+    padding: 14% 0 0;
+}
+    
+.en_home_introduction{
+    max-width: 70%;
+    color: #a2a2b1;
+    line-height: 24px;
+    font-size: 14px;
+}
+
+.homepage_show {
+    display: flex;
+    align-items: center;
+}
+
+.homepage_show>img {
+    padding: 0 30px 0;
+}
+
+/* part7 */
+.part7_wrapper {
+    margin: 0 auto;
+    padding: 5% 0 5%;
+}
+
+.part7_content {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.part7_content>img {
+    width: 30%;
+    height: 100%;
+}
+
+.patient_introduction{ 
+    padding-top: 14%;
+    padding-left: 10%;
+}
+    
+.en_patient_introduction{
+    color: #a2a2b1;
+    line-height: 24px;
+    font-size: 14px;
+}
+
+/* part8 */
+.part8_wrapper {
+    margin: 0 auto;
+    padding: 5% 0 5%;
+}
+
+.part8_content {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.part8_content>img {
+    width: 30%;
+    height: 100%;
+}
+
+.call_introduction{ 
+    padding-top: 14%;
+    padding-left: 10%;
+}
+    
+.en_call_introduction{
+    color: #a2a2b1;
+    line-height: 24px;
+    font-size: 14px;
+}
+
+/* part9 */
+.part9>img {
+    max-width: 100%;
+}
+
+/* 思维导图 */
+#embed_dom {
+    height: 0;
+    width: 800px;
 }
 
 /* footer */
@@ -154,36 +427,36 @@ footer {
     height: 300px;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.7);
-  }
-  
-  .footer_main {
+}
+
+.footer_main {
     display: flex;
     max-width: 1600px;
     margin: 0 auto;
     font-family: Helvetica, Arial, sans-serif;
-  }
-  
-  .footer_work,
-  .footer_blog,
-  .footer_resume {
+}
+
+.footer_work,
+.footer_blog,
+.footer_resume {
     margin: 50px 0 0;
     min-width: 300px;
-  }
-  
-  .footer_about {
+}
+
+.footer_about {
     margin: 50px 0 0;
     right: 0;
-  }
-  
-  .title {
+}
+
+.title {
     margin: 0 0 12px;
     font-size: 16px;
     font-weight: bold;
     color: rgba(255, 255, 255, 1);
     line-height: 28px;
-  }
-  
-  .item {
+}
+
+.item {
     display: flex;
     flex-direction: column;
     padding-right: 200px;
@@ -191,61 +464,69 @@ footer {
     ;
     color: rgba(255, 255, 255, 0.5);
     line-height: 46px;
-  }
-  
-  .item>a:link {
+}
+
+.item>a:link {
     color: rgba(255, 255, 255, 0.5);
-  }
-  
-  .item>a:visited {
+}
+
+.item>a:visited {
     color: rgba(255, 255, 255, 0.5);
-  }
-  
-  .item>a:hover {
+}
+
+.item>a:hover {
     color: #a883ff;
-  }
-  
-  .about_me {
+}
+
+.about_me {
     margin: 0 0 40px;
     font-size: 14px;
     ;
     color: rgba(255, 255, 255, 0.5);
     line-height: 28px;
-  }
-  
-  .footer_media {
+}
+
+.footer_media {
     display: flex;
-  }
-  
-  .footer_media>a {
+}
+
+.footer_media>a {
     width: auto;
     height: 100%;
     margin-right: 20px;
-  }
-  
-  .footer_media>a:link {
+}
+
+.footer_media>a:link {
     color: rgba(255, 255, 255, 0.5);
-  }
-  
-  .footer_media>a:visited {
+}
+
+.footer_media>a:visited {
     color: rgba(255, 255, 255, 0.5);
-  }
-  
-  .footer_media>a:hover {
+}
+
+.footer_media>a:hover {
     color: #a883ff;
-  }
-  
-  .footer_copyright {
+}
+
+.footer_copyright {
     margin: 0 auto;
     text-align: center;
     margin: 40px 0 0;
     font-size: 14px;
     color: #aaaaaa;
-  }
+}
 
 /* 响应式 */
 @media screen and (max-width: 600px) {
 
+    .part1_warpper,
+    .part2_wrapper,
+    .part3_wrapper,
+    .part4_wrapper,
+    .part5_wrapper,
+    .part6_wrapper,
+    .part7_wrapper,
+    .part8_wrapper,
     .header_main,
     .color,
     .footer_main {
@@ -284,14 +565,18 @@ footer {
         margin: 0;
         padding: 0;
     }
-
-    .article {
-        flex-basis: 100%;
-    }
 }
 
 @media screen and (min-width: 600px) {
 
+    .part1_warpper,
+    .part2_wrapper,
+    .part3_wrapper,
+    .part4_wrapper,
+    .part5_wrapper,
+    .part6_wrapper,
+    .part7_wrapper,
+    .part8_wrapper,
     .header_main,
     .color,
     .footer_main {
@@ -301,10 +586,22 @@ footer {
     .article {
         flex-basis: 48%;
     }
+
+    .part1 {
+        background-image: url(../src/img/png/mobile_nursing_part1_900bg.png);
+    }
 }
 
 @media screen and (min-width: 900px) {
 
+    .part1_warpper,
+    .part2_wrapper,
+    .part3_wrapper,
+    .part4_wrapper,
+    .part5_wrapper,
+    .part6_wrapper,
+    .part7_wrapper,
+    .part8_wrapper,
     .header_main,
     .color,
     .footer_main {
@@ -314,10 +611,29 @@ footer {
     .article {
         flex-basis: 32%;
     }
+
+    .part2_professional,
+    .part2_care,
+    .part2_gentle,
+    .part2_clean {
+        flex-basis: 23.8%;
+    }
+
+    .part1 {
+        background-image: url(../src/img/png/mobile_nursing_part1_900bg.png);
+    }
 }
 
 @media screen and (min-width: 1600px) {
 
+    .part1_warpper,
+    .part2_wrapper,
+    .part3_wrapper,
+    .part4_wrapper,
+    .part5_wrapper,
+    .part6_wrapper,
+    .part7_wrapper,
+    .part8_wrapper,
     .header_main,
     .color,
     .footer_main {
@@ -326,5 +642,16 @@ footer {
 
     .article {
         flex-basis: 23.8%;
+    }
+
+    .part2_professional,
+    .part2_care,
+    .part2_gentle,
+    .part2_clean {
+        flex-basis: 23.8%;
+    }
+
+    .part1 {
+        background-image: url(../src/img/png/mobile_nursing_part1_bg.png);
     }
 }
