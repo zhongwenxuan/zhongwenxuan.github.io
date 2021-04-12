@@ -124,21 +124,20 @@ a:hover {
 .article:hover,
 .article:focus,
 .article:active {
-  transform: translateY(-6px);
+  transform: translateY(-10px);
   box-shadow: 0px 6px 16px 0px rgba(0, 0, 0, 0.06);
 }
 
 .article {
   margin: 0 0 20px;
-  border: 1px solid #dddddd;
-  border-radius: 5px;
-  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.01);
+  border-radius: 20px;
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.05);
   transition: transform 0.35s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.35s cubic-bezier(0.4, 0, 0.2, 1);
   transform: translateY(0px);
 }
 
 .article>img {
-  border-radius: 5px;
+  border-radius: 20px;
   width: 100%;
   height: 100%;
 }
@@ -150,7 +149,7 @@ a:hover {
   top: 0;
   width: 100%;
   height: 100%;
-  border-radius: 5px;
+  border-radius: 20px;
   text-align: center;
   overflow: hidden;
   opacity: 0;
@@ -161,7 +160,7 @@ a:hover {
   font-weight: bold;
   color: #fff;
   position: relative;
-  top: 45%;
+  top: 40%;
 }
 
 .mask:hover {
