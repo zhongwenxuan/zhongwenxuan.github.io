@@ -95,19 +95,16 @@ body{
 .banner {
   margin: 15%;
   display: flex;
-}
-
-.selfportrait{
-  margin: 5% 0 0 15%;
-}
-
-.selfintroduction{
-  margin: 10% 0 0 15%;
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: 500;
   color: #333333;
   line-height: 50px;
 }
+
+.selfportrait{
+  margin: 0 10% 0 0;
+}
+
 
 /* content */
 /* article 510*400 */
@@ -128,21 +125,16 @@ body{
 
 .article {
   margin: 0 0 20px;
-  border: 1px solid #dddddd;
-  border-radius: 5px;
-  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.01);
+  border-radius: 20px;
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.05);
   transition: transform 0.35s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.35s cubic-bezier(0.4, 0, 0.2, 1);
   transform: translateY(0px);
 }
 
 .article>img {
-  border-radius: 5px;
+  border-radius: 20px;
   width: 100%;
   height: 100%;
-}
-
-.article_title{
-  line-height: 30px;
 }
 
 /* mask */
@@ -152,7 +144,7 @@ body{
   top: 0;
   width: 100%;
   height: 100%;
-  border-radius: 5px;
+  border-radius: 20px;
   text-align: center;
   overflow: hidden;
   opacity: 0;
@@ -163,7 +155,7 @@ body{
   font-weight: bold;
   color: #fff;
   position: relative;
-  top: 45%;
+  top: 40%;
 }
 
 .mask:hover {
