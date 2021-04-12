@@ -1,0 +1,831 @@
+* {
+    box-sizing: border-box;
+    margin: 0 0 0;
+}
+
+/* 重置链接样式 */
+a {
+    text-decoration: none;
+}
+
+a:link {
+    text-decoration: none;
+    color: #000000;
+}
+
+a:active {
+    text-decoration: blink;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #000000
+}
+
+a:hover {
+    text-decoration: none;
+    color: #a883ff;
+}
+
+/* 重置文本样式 */
+h1 {
+    font-size: 40px;
+    color: #3b3b3d;
+    letter-spacing: 5px;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 28px;
+    color: #f46352;
+    letter-spacing: 3px;
+    font-weight: 600;
+    line-height: 34px;
+}
+
+h3 {
+    font-size: 20px;
+    color: #3b3b3d;
+    letter-spacing: 2px;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+h4 {
+    font-size: 16px;
+    color: #3b3b3d;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.en_h2 {
+    line-height: 30px;
+    font-size: 16px;
+    color: #f46352;
+}
+
+.en_h3 {
+    line-height: 24px;
+    font-size: 14px;
+    color: #3b3b3d;
+    letter-spacing: 1px;
+}
+
+p {
+    color: #666666;
+    line-height: 32px;
+    font-size: 16px;
+}
+
+.text {
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.en_style {
+    color: #999999;
+    line-height: 26px;
+    font-size: 14px;
+}
+
+
+/* header */
+.header {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    height: 60px;
+    width: 100%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+    background-color: rgba(255, 255, 255, 0.8)
+}
+
+.header_main {
+    position: relative;
+    margin: 0 auto;
+}
+
+.logo {
+    float: left;
+    top: 0;
+    height: 60px;
+    width: 60px;
+    margin-top: -60px;
+    padding: 8px 0 10px;
+    opacity: 0.8;
+}
+
+.topnav {
+    position: relative;
+    text-align: right;
+}
+
+.work,
+.blog,
+.resume,
+.about {
+    text-align: center;
+    line-height: 60px;
+    margin-left: 60px;
+    list-style: none;
+    display: inline-block;
+}
+
+/* content */
+#content {
+    margin: 0 auto;
+    padding: 60px 0 0;
+}
+
+/* part1 */
+.part1 {
+    margin: 0 auto;
+    padding: 4% 0 6%;
+    text-align: center;
+    background-color: #fafafa
+}
+
+.basic_information {
+    margin: 2% 0 2%;
+    padding: 20px;
+    text-align: center;
+    border-bottom: #d4d6d4 solid 1px;
+}
+
+.table_title {
+    color: #aaaaaa;
+    letter-spacing: 3px;
+    margin-left: 6%;
+}
+
+.table_content {
+    letter-spacing: 2px;
+    color: #999999;
+}
+
+.show1 {
+    padding: 2%;
+}
+
+.show1>img {
+    display: block;
+    margin: 0 auto;
+    padding: 0 0 3%;
+    max-width: 56%;
+}
+
+.brief_introduction {
+    padding: 0 0 2%;
+}
+
+.en_brief_introduction {
+    color: #999999;
+    line-height: 26px;
+    font-size: 14px;
+}
+
+
+/* part2 */
+.part2 {
+    padding: 6% 0 6%;
+    background-color: #f46352;
+    background-image: url(../src/img/png/cb_background.png);
+}
+
+.part2_content {
+    padding: 0 12% 0;
+}
+
+.part2_content>h2 {
+    text-align: center;
+    padding: 0 0 4%;
+    color: #ffffff;
+}
+
+.part2_content>h2>p {
+    color: #ffffff;
+}
+
+.background {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 6% 0;
+    text-align: left;
+}
+
+.background>p {
+    color: #ffffff;
+}
+
+/* part3 */
+.part3 {
+    padding: 6% 0 6%;
+    background-color: #ffffff;
+}
+
+.part3_content {
+    padding: 0 12% 0;
+}
+
+.part3_content>h2 {
+    text-align: center;
+    padding: 0 0 4%;
+}
+
+/** 首要任务 **/
+.toptask {
+    display: flex;
+    flex-wrap: row;
+    text-align: left;
+}
+
+.toptask_content {
+    padding-left: 5%;
+}
+
+.toptask_content>img {
+    max-width: 600px;
+    padding: 2% 0 0;
+}
+
+
+/** 评估目标 **/
+.goal {
+    display: flex;
+    flex-wrap: row;
+    text-align: left;
+    padding: 6% 0 0;
+}
+
+.goal_content {
+    padding-left: 5%;
+}
+
+
+/* part4 */
+.part4 {
+    padding: 6% 0 6%;
+    background-color: #fafafa;
+}
+
+.part4_content {
+    padding: 0 12% 0;
+}
+
+.part4_content>h2 {
+    text-align: center;
+    padding: 0 0 4%;
+}
+
+/** 启发式评估 **/
+.heuristics {
+    display: flex;
+    flex-wrap: row;
+    text-align: left;
+    padding: 0 0 6%;
+    border-bottom: #d4d6d4 solid 1px;
+}
+
+.heuristics_content {
+    padding-left: 5%;
+}
+
+.heuristicsimg {
+    display: flex;
+    flex-wrap: row;
+    justify-content: space-around;
+    padding: 2% 0 2%;
+}
+.heuristicsimg>img {
+    max-width: 30%;
+}
+
+/** 可访问性评估 **/
+.accessibility {
+    display: flex;
+    flex-wrap: row;
+    text-align: left;
+    padding: 6% 0 6%;
+    border-bottom: #d4d6d4 solid 1px;
+}
+
+.accessibility_content {
+    padding-left: 5%;
+}
+
+.accessibility_result {
+    display: flex;
+    flex-wrap: row;
+    margin: 2% 0 0;
+}
+
+.accessibility_result>img {
+    max-width: 40%;
+    margin-right: 3%;
+}
+
+/** 性能评估 **/
+.performance {
+    display: flex;
+    flex-wrap: row;
+    text-align: left;
+    padding: 6% 0 6%;
+    border-bottom: #d4d6d4 solid 1px;
+}
+
+.performance_content {
+    padding-left: 5%;
+}
+
+.performance_result {
+    display: flex;
+    flex-wrap: row;
+    padding: 2% 0 2%;
+}
+
+.performance_result>img {
+    max-width: 30%;
+    margin-right: 3%;
+}
+
+/** 满意度评估 **/
+.satisfaction {
+    display: flex;
+    flex-wrap: row;
+    text-align: left;
+    padding: 6% 0 6%;
+    border-bottom: #d4d6d4 solid 1px;
+}
+
+.satisfaction_content {
+    padding-left: 5%;
+}
+
+.performance_result {
+    display: flex;
+    flex-wrap: row;
+    padding: 2% 0 2%;
+}
+
+/** 眼球追踪 **/
+.eyetrack {
+    display: flex;
+    flex-wrap: row;
+    text-align: left;
+    padding: 6% 0 6%;
+    border-bottom: #d4d6d4 solid 1px;
+}
+
+.eyetrack_content {
+    padding-left: 5%;
+}
+
+.eyetrack_result>img {
+    max-width: 300px;
+    padding: 2% 0 0;
+}
+
+
+/** 心理分析 **/
+.psychology {
+    display: flex;
+    flex-wrap: row;
+    text-align: left;
+    padding: 6% 0 0;
+}
+
+.psychology_content {
+    padding-left: 5%;
+}
+
+
+/* part5 */
+.part5 {
+    padding: 6% 0 6%;
+    background-color: #ffffff;
+}
+
+.part5_content {
+    padding: 0 12% 0;
+}
+
+.part5_content>h2 {
+    text-align: center;
+    padding: 0 0 4%;
+}
+
+.summary_content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.summary_bg {
+    max-width: 300px;
+    padding: 3%;
+    margin-right: 3%;
+    border-radius: 20px;
+    box-shadow: 0px 6px 16px 0px rgba(0, 0, 0, 0.06);
+}
+
+.summary_bg>h3 {
+    text-align: center;
+}
+
+/* part6 */
+.part6 {
+    padding: 6% 0 0;
+    background-color: #fafafa;
+}
+
+.part6_content {
+    padding: 0 12% 0;
+}
+
+.part6_content>h2 {
+    text-align: center;
+    padding: 0 0 4%;
+}
+
+
+/** 草图 **/
+.sketch {
+    display: flex;
+    flex-wrap: row;
+    padding: 0 0 6%;
+}
+
+.sketch_content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-left: 5%;
+}
+
+.sketch_content>img {
+    max-width: 30%;
+    padding: 0 2% 2% 0;
+}
+
+/** 主页 **/
+.home {
+    display: flex;
+    flex-wrap: row;
+    padding: 0 0 6%;
+}
+
+.home>video {
+    margin: 0 2% 2% 5%;
+    max-width: 60%;
+    border-radius: 10px;
+    box-shadow: 0px 6px 16px 0px rgba(0, 0, 0, 0.06);
+}
+
+.home_content {
+    padding-left: 2%;
+}
+
+/** 商品 **/
+.product {
+    display: flex;
+    flex-wrap: row;
+    padding: 0 0 6%;
+}
+
+.product>video {
+    margin: 0 2% 2% 5%;
+    max-width: 60%;
+    border-radius: 10px;
+    box-shadow: 0px 6px 16px 0px rgba(0, 0, 0, 0.06);
+}
+
+.product_content {
+    padding-left: 2%;
+}
+
+/** 配送 **/
+.delivery {
+    display: flex;
+    flex-wrap: row;
+    padding: 0 0 6%;
+}
+
+.delivery>video {
+    margin: 0 2% 2% 5%;
+    max-width: 60%;
+    border-radius: 10px;
+    box-shadow: 0px 6px 16px 0px rgba(0, 0, 0, 0.06);
+}
+
+.delivery_content {
+    padding-left: 2%;
+}
+
+/** 购买 **/
+.order {
+    display: flex;
+    flex-wrap: row;
+    padding: 0 0 6%;
+}
+
+.order>video {
+    margin: 0 2% 2% 5%;
+    max-width: 60%;
+    border-radius: 10px;
+    box-shadow: 0px 6px 16px 0px rgba(0, 0, 0, 0.06);
+}
+
+.order_content {
+    padding-left: 2%;
+}
+
+/** 响应式设计 **/
+.responsive {
+    display: flex;
+    flex-wrap: row;
+    padding: 0 0 6%;
+}
+
+.responsive_content {
+    padding-left: 2%;
+    text-align: center;
+}
+
+.responsive_content>img {
+    max-width: 90%;
+}
+
+
+/* part7 */
+.part7 {
+    padding: 6% 0 6%;
+    background-color: #ffffff;
+}
+
+.part7_content {
+    padding: 0 12% 0;
+}
+
+.part7_content>h2 {
+    text-align: center;
+    padding: 0 0 4%;
+}
+
+/** 性能对比 **/
+.performanceB {
+    display: flex;
+    flex-wrap: row;
+    padding: 0 0 6%;
+}
+
+.performanceB_content {
+    padding-left: 5%;
+}
+
+.performanceB_img {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.performanceB_img>img {
+    padding: 0 2% 2% 0;
+    max-width: 50%;
+}
+
+/** 满意度对比 **/
+.satisfactionB {
+    display: flex;
+    flex-wrap: row;
+    padding: 0 0 6%;
+}
+
+.satisfactionB_content {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 5%;
+}
+
+.satisfactionB_content>img {
+    padding: 0 2% 2% 0;
+    max-width: 50%;
+}
+
+/** 眼球追踪对比 **/
+.eyetrackB {
+    display: flex;
+    flex-wrap: row;
+    padding: 0 0 6%;
+}
+
+.eyetrackB_content {
+    padding-left: 5%;
+}
+
+.eyetrackB_img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.eyetrackB_img>img {
+    max-width: 50%;
+}
+
+
+/* part8 */
+.part8 {
+    padding: 6% 0 6%;
+    background-color: #fafafa;
+}
+
+.part8_content {
+    padding: 0 20% 0;
+}
+
+.part8_content>h2 {
+    text-align: center;
+    padding: 0 0 4%;
+}
+
+
+/* footer */
+footer {
+    position: absolute;
+    height: 300px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.footer_main {
+    display: flex;
+    max-width: 1600px;
+    margin: 0 auto;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.footer_work,
+.footer_blog,
+.footer_resume {
+    margin: 50px 0 0;
+    min-width: 300px;
+}
+
+.footer_about {
+    margin: 50px 0 0;
+    right: 0;
+}
+
+.title {
+    margin: 0 0 12px;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 1);
+    line-height: 28px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    padding-right: 200px;
+    font-size: 14px;
+    ;
+    color: rgba(255, 255, 255, 0.5);
+    line-height: 46px;
+}
+
+.item>a:link {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.item>a:visited {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.item>a:hover {
+    color: #a883ff;
+}
+
+.about_me {
+    margin: 0 0 40px;
+    font-size: 14px;
+    ;
+    color: rgba(255, 255, 255, 0.5);
+    line-height: 28px;
+}
+
+.footer_media {
+    display: flex;
+}
+
+.footer_media>a {
+    width: auto;
+    height: 100%;
+    margin-right: 20px;
+}
+
+.footer_media>a:link {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.footer_media>a:visited {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.footer_media>a:hover {
+    color: #a883ff;
+}
+
+.footer_copyright {
+    margin: 0 auto;
+    text-align: center;
+    margin: 40px 0 0;
+    font-size: 14px;
+    color: #aaaaaa;
+}
+
+/* 响应式 */
+@media screen and (max-width: 600px) {
+
+    .header_main,
+    .color,
+    .footer_main {
+        max-width: 600px;
+    }
+
+    .topnav {
+        width: 60px;
+        height: 60px;
+        position: absolute;
+        top: 0;
+        left: auto;
+        right: 0;
+        background: rgba(255, 255, 255, 1)url(https://www.easyicon.net/api/resizeApi.php?id=1225479&size=32) no-repeat 10px 11px;
+    }
+
+    .work,
+    .blog,
+    .resume,
+    .about {
+        display: none;
+        /* hide all <li> items */
+        margin: 0;
+    }
+
+    /* on nav hover */
+    .topnav:hover {
+        width: 150px;
+        height: 240px;
+        background-image: none;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+    }
+
+    .topnav:hover li {
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+
+    .article {
+        flex-basis: 100%;
+    }
+}
+
+@media screen and (min-width: 600px) {
+
+    .header_main,
+    .color,
+    .footer_main {
+        min-width: 600px;
+    }
+
+    .article {
+        flex-basis: 48%;
+    }
+}
+
+@media screen and (min-width: 900px) {
+
+    .header_main,
+    .color,
+    .footer_main {
+        max-width: 1200px;
+    }
+
+    .article {
+        flex-basis: 32%;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+
+    .header_main,
+    .color,
+    .footer_main {
+        max-width: 1600px;
+    }
+
+    .article {
+        flex-basis: 23.8%;
+    }
+}
