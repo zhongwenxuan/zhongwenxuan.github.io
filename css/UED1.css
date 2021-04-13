@@ -29,19 +29,54 @@ a:hover {
 
 /* 重置文本样式 */
 h1 {
-    font-size: 2.5rem;
+    font-size: 40px;
     color: #3b3b3d;
     letter-spacing: 5px;
     font-weight: 500;
 }
 
 h2 {
-    font-size: 2em;
-    color: #006933;
-    letter-spacing: 5px;
-    font-weight: 300;
-    line-height: 100px;
+    font-size: 28px;
+    color: #454d5b;
+    letter-spacing: 3px;
+    font-weight: 600;
+    line-height: 34px;
 }
+
+.en_h2 {
+    line-height: 30px;
+    font-size: 16px;
+    color: #454d5b;
+}
+
+h3 {
+    font-size: 20px;
+    color: #3b3b3d;
+    letter-spacing: 2px;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.en_h3 {
+    line-height: 24px;
+    font-size: 16px;
+    color: #3b3b3d;
+    letter-spacing: 1px;
+}
+
+h4 {
+    font-size: 16px;
+    color: #3b3b3d;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+p {
+    color: #666666;
+    line-height: 32px;
+    font-size: 16px;
+}
+
 
 /* header */
 .header {
@@ -118,19 +153,26 @@ h2 {
     color: #999999;
 }
 
-.discription{
-    max-width: 1000px;
+.part1_content {
+    display: flex;
+    flex-flow: row;
     margin: 0 auto;
+    padding: 6% 0 6%;
+    max-width: 1000px;
 }
 
-.brief_introduction{
+.discription {
+    padding-right: 3%;
+}
+
+.brief_introduction {
     color: #666666;
     line-height: 36px;
     font-size: 16px;
     text-align: left;
 }
 
-.en_brief_introduction{
+.en_brief_introduction {
     color: #999999;
     line-height: 32px;
     font-size: 14px;
@@ -144,9 +186,60 @@ h2 {
     max-width: 56%;
 }
 
-.part1>iframe{
+.part1>iframe {
     margin: 0 0 5%;
 }
+
+
+/* part2 */
+.part2 {
+    background-color: #ffffff;
+}
+
+.part2_content {
+    margin: 0 auto;
+    padding: 6% 12% 6%;
+}
+
+.part2_content>h2 {
+    text-align: center;
+    padding: 0 0 4%;
+}
+
+.compontent {
+    text-align: left;
+}
+
+.compontent>img {
+    max-width: 100%;
+    padding: 5% 0 0;
+}
+
+
+/* part3 */
+.part3 {
+    background-color: #fafafa;
+}
+
+.part3_content {
+    margin: 0 auto;
+    padding: 6% 12% 6%;
+}
+
+.part3_content>h2 {
+    text-align: center;
+    padding: 0 0 4%;
+}
+
+.interface {
+    text-align: left;
+}
+
+.interface>img {
+    max-width: 100%;
+    padding: 5% 0 0;
+}
+
 
 /* footer */
 footer {
@@ -154,36 +247,36 @@ footer {
     height: 300px;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.7);
-  }
-  
-  .footer_main {
+}
+
+.footer_main {
     display: flex;
     max-width: 1600px;
     margin: 0 auto;
     font-family: Helvetica, Arial, sans-serif;
-  }
-  
-  .footer_work,
-  .footer_blog,
-  .footer_resume {
+}
+
+.footer_work,
+.footer_blog,
+.footer_resume {
     margin: 50px 0 0;
     min-width: 300px;
-  }
-  
-  .footer_about {
+}
+
+.footer_about {
     margin: 50px 0 0;
     right: 0;
-  }
-  
-  .title {
+}
+
+.title {
     margin: 0 0 12px;
     font-size: 16px;
     font-weight: bold;
     color: rgba(255, 255, 255, 1);
     line-height: 28px;
-  }
-  
-  .item {
+}
+
+.item {
     display: flex;
     flex-direction: column;
     padding-right: 200px;
@@ -191,57 +284,57 @@ footer {
     ;
     color: rgba(255, 255, 255, 0.5);
     line-height: 46px;
-  }
-  
-  .item>a:link {
+}
+
+.item>a:link {
     color: rgba(255, 255, 255, 0.5);
-  }
-  
-  .item>a:visited {
+}
+
+.item>a:visited {
     color: rgba(255, 255, 255, 0.5);
-  }
-  
-  .item>a:hover {
+}
+
+.item>a:hover {
     color: #a883ff;
-  }
-  
-  .about_me {
+}
+
+.about_me {
     margin: 0 0 40px;
     font-size: 14px;
     ;
     color: rgba(255, 255, 255, 0.5);
     line-height: 28px;
-  }
-  
-  .footer_media {
+}
+
+.footer_media {
     display: flex;
-  }
-  
-  .footer_media>a {
+}
+
+.footer_media>a {
     width: auto;
     height: 100%;
     margin-right: 20px;
-  }
-  
-  .footer_media>a:link {
+}
+
+.footer_media>a:link {
     color: rgba(255, 255, 255, 0.5);
-  }
-  
-  .footer_media>a:visited {
+}
+
+.footer_media>a:visited {
     color: rgba(255, 255, 255, 0.5);
-  }
-  
-  .footer_media>a:hover {
+}
+
+.footer_media>a:hover {
     color: #a883ff;
-  }
-  
-  .footer_copyright {
+}
+
+.footer_copyright {
     margin: 0 auto;
     text-align: center;
     margin: 40px 0 0;
     font-size: 14px;
     color: #aaaaaa;
-  }
+}
 
 /* 响应式 */
 @media screen and (max-width: 600px) {
