@@ -31,7 +31,7 @@ a:hover {
 h1 {
     font-size: 40px;
     color: #3b3b3d;
-    letter-spacing: 5px;
+    letter-spacing: 2px;
     font-weight: 600;
 }
 
@@ -68,12 +68,12 @@ h4 {
     line-height: 24px;
     font-size: 14px;
     color: #3b3b3d;
-    letter-spacing: 1px;
+    letter-spacing: 0px;
 }
 
 p {
-    color: #666666;
-    line-height: 32px;
+    color: #333333;
+    line-height: 30px;
     font-size: 16px;
 }
 
@@ -86,6 +86,10 @@ p {
     color: #999999;
     line-height: 26px;
     font-size: 14px;
+}
+
+.h3 {
+    width: 180px;
 }
 
 
@@ -138,97 +142,127 @@ p {
     padding: 60px 0 0;
 }
 
-/* part1 */
-.part1 {
+/* overall */
+.overall {
     margin: 0 auto;
     padding: 4% 0 6%;
     text-align: center;
-    background-color: #fafafa
 }
 
-.basic_information {
-    margin: 2% 0 2%;
-    padding: 20px;
+.project_information {
+    margin: 2% 0 1%;
+    padding: 30px;
     text-align: center;
-    border-bottom: #d4d6d4 solid 1px;
 }
 
 .table_title {
-    color: #aaaaaa;
-    letter-spacing: 3px;
-    margin-left: 6%;
+    color: #888888;
 }
 
 .table_content {
-    letter-spacing: 2px;
-    color: #999999;
+    margin-right: 6%;
+    letter-spacing: 0.5px;
+    color: #666666;
 }
 
-.show1 {
-    padding: 2%;
-}
-
-.show1>img {
+.heroshot>img {
     display: block;
     margin: 0 auto;
+    padding: 0 0 5%;
+    max-width: 80%;
+}
+
+.brief {
     padding: 0 0 3%;
-    max-width: 56%;
-}
-
-.brief_introduction {
-    padding: 0 0 2%;
-}
-
-.en_brief_introduction {
-    color: #999999;
-    line-height: 26px;
-    font-size: 14px;
 }
 
 
-/* part2 */
-.part2 {
+
+/* background */
+.background {
     padding: 6% 0 6%;
     background-color: #f46352;
     background-image: url(../src/img/png/cb_background.png);
 }
 
-.part2_content {
+.background_content {
     padding: 0 12% 0;
 }
 
-.part2_content>h2 {
+.background_content>h2 {
     text-align: center;
     padding: 0 0 4%;
     color: #ffffff;
 }
 
-.part2_content>h2>p {
+.background_content>h2>p {
     color: #ffffff;
 }
 
-.background {
+.background_introduction {
     display: flex;
     flex-wrap: wrap;
     padding: 0 6% 0;
     text-align: left;
 }
 
-.background>p {
-    color: #ffffff;
+.background_introduction>p {
+    color: rgba(255, 255, 255, 0.85);
 }
 
-/* part3 */
-.part3 {
+
+/* website_analysis */
+.website_analysis {
+    padding: 6% 0 6%;
+    background-color: #fafafa;
+}
+
+.website_analysis_content {
+    padding: 0 12% 0;
+}
+
+.website_analysis_content>h2 {
+    text-align: center;
+    padding: 0 0 4%;
+}
+
+.website_analysis_introduction {
+    display: flex;
+    flex-wrap: row;
+}
+
+.cb_homepage {
+    max-width: 35%;
+    margin-right: 5%;
+}
+
+.website_analysis_text {
+    display: flex;
+    flex-direction: column;
+}
+
+.style_analysis {
+    padding-bottom: 40px;
+}
+
+.style_analysis>h3,
+.site_status>h3 {
+    padding-bottom: 14px;
+}
+
+
+
+/* design_goal */
+.design_goal {
     padding: 6% 0 6%;
     background-color: #ffffff;
 }
 
-.part3_content {
+.design_goal_content {
     padding: 0 12% 0;
 }
 
-.part3_content>h2 {
+.design_goal_content>h2 {
     text-align: center;
     padding: 0 0 4%;
 }
@@ -236,44 +270,33 @@ p {
 /** 首要任务 **/
 .toptask {
     display: flex;
-    flex-wrap: row;
-    text-align: left;
 }
 
-.toptask_content {
-    padding-left: 5%;
-}
 
 .toptask_content>img {
-    max-width: 600px;
-    padding: 2% 0 0;
+    max-width: 760px;
+    padding-bottom: 20px;
 }
 
 
 /** 评估目标 **/
 .goal {
     display: flex;
-    flex-wrap: row;
-    text-align: left;
     padding: 6% 0 0;
 }
 
-.goal_content {
-    padding-left: 5%;
-}
 
-
-/* part4 */
-.part4 {
+/* evaluation*/
+.evaluation {
     padding: 6% 0 6%;
     background-color: #fafafa;
 }
 
-.part4_content {
+.evaluation_content {
     padding: 0 12% 0;
 }
 
-.part4_content>h2 {
+.evaluation_content>h2 {
     text-align: center;
     padding: 0 0 4%;
 }
@@ -281,25 +304,15 @@ p {
 /** 启发式评估 **/
 .heuristics {
     display: flex;
-    flex-wrap: row;
-    text-align: left;
     padding: 0 0 6%;
     border-bottom: #d4d6d4 solid 1px;
 }
 
-.heuristics_content {
-    padding-left: 5%;
+.heuristics_content>img {
+    max-width: 760px;
+    padding-bottom: 20px;
 }
 
-.heuristicsimg {
-    display: flex;
-    flex-wrap: row;
-    justify-content: space-around;
-    padding: 2% 0 2%;
-}
-.heuristicsimg>img {
-    max-width: 30%;
-}
 
 /** 可访问性评估 **/
 .accessibility {
@@ -314,15 +327,9 @@ p {
     padding-left: 5%;
 }
 
-.accessibility_result {
-    display: flex;
-    flex-wrap: row;
-    margin: 2% 0 0;
-}
-
-.accessibility_result>img {
-    max-width: 40%;
-    margin-right: 3%;
+.accessibility_content>img {
+    max-width: 760px;
+    padding-bottom: 20px;
 }
 
 /** 性能评估 **/
@@ -334,20 +341,11 @@ p {
     border-bottom: #d4d6d4 solid 1px;
 }
 
-.performance_content {
-    padding-left: 5%;
+.performance_content>img {
+    max-width: 760px;
+    padding-bottom: 20px;
 }
 
-.performance_result {
-    display: flex;
-    flex-wrap: row;
-    padding: 2% 0 2%;
-}
-
-.performance_result>img {
-    max-width: 30%;
-    margin-right: 3%;
-}
 
 /** 满意度评估 **/
 .satisfaction {
@@ -358,18 +356,14 @@ p {
     border-bottom: #d4d6d4 solid 1px;
 }
 
-.satisfaction_content {
-    padding-left: 5%;
+.satisfaction_content>img {
+    max-width: 760px;
+    padding-bottom: 20px;
 }
 
-.performance_result {
-    display: flex;
-    flex-wrap: row;
-    padding: 2% 0 2%;
-}
 
-/** 眼球追踪 **/
-.eyetrack {
+/** 生物测量 **/
+.biometrics {
     display: flex;
     flex-wrap: row;
     text-align: left;
@@ -377,13 +371,9 @@ p {
     border-bottom: #d4d6d4 solid 1px;
 }
 
-.eyetrack_content {
-    padding-left: 5%;
-}
-
-.eyetrack_result>img {
-    max-width: 300px;
-    padding: 2% 0 0;
+.biometrics_content>img {
+    max-width: 760px;
+    padding-bottom: 20px;
 }
 
 
@@ -395,22 +385,19 @@ p {
     padding: 6% 0 0;
 }
 
-.psychology_content {
-    padding-left: 5%;
-}
 
 
-/* part5 */
-.part5 {
+/* evaluation_summary */
+.evaluation_summary {
     padding: 6% 0 6%;
     background-color: #ffffff;
 }
 
-.part5_content {
+.evaluation_summary_content {
     padding: 0 12% 0;
 }
 
-.part5_content>h2 {
+.evaluation_summary_content>h2 {
     text-align: center;
     padding: 0 0 4%;
 }
@@ -422,8 +409,8 @@ p {
 }
 
 .summary_bg {
-    max-width: 300px;
-    padding: 3%;
+    max-width: 290px;
+    padding: 2%;
     margin-right: 3%;
     border-radius: 20px;
     box-shadow: 0px 6px 16px 0px rgba(0, 0, 0, 0.06);
@@ -433,17 +420,17 @@ p {
     text-align: center;
 }
 
-/* part6 */
-.part6 {
+/* redesign */
+.redesign {
     padding: 6% 0 0;
     background-color: #fafafa;
 }
 
-.part6_content {
+.redesign_content {
     padding: 0 12% 0;
 }
 
-.part6_content>h2 {
+.redesign_content>h2 {
     text-align: center;
     padding: 0 0 4%;
 }
@@ -557,93 +544,78 @@ p {
 }
 
 
-/* part7 */
-.part7 {
+/* ABtest */
+.ABtest {
     padding: 6% 0 6%;
     background-color: #ffffff;
 }
 
-.part7_content {
+.ABtest_content {
     padding: 0 12% 0;
 }
 
-.part7_content>h2 {
+.ABtest_content>h2 {
     text-align: center;
     padding: 0 0 4%;
 }
 
 /** 性能对比 **/
-.performanceB {
+.performance_comparison {
     display: flex;
     flex-wrap: row;
     padding: 0 0 6%;
+    border-bottom: #d4d6d4 solid 1px;
 }
 
-.performanceB_content {
+.performance_comparison_content {
     padding-left: 5%;
 }
 
-.performanceB_img {
-    display: flex;
-    flex-wrap: wrap;
+.performance_comparison_content>img {
+    max-width: 760px;
+    padding-bottom: 20px;
 }
 
-.performanceB_img>img {
-    padding: 0 2% 2% 0;
-    max-width: 50%;
-}
 
 /** 满意度对比 **/
-.satisfactionB {
+.satisfaction_comparison {
     display: flex;
     flex-wrap: row;
-    padding: 0 0 6%;
+    padding: 6% 0 6%;
+    border-bottom: #d4d6d4 solid 1px;
 }
 
-.satisfactionB_content {
-    display: flex;
-    flex-wrap: wrap;
-    padding-left: 5%;
-}
-
-.satisfactionB_content>img {
-    padding: 0 2% 2% 0;
-    max-width: 50%;
+.satisfaction_comparison_content>img {
+    max-width: 760px;
+    padding-bottom: 20px;
 }
 
 /** 眼球追踪对比 **/
-.eyetrackB {
+.eyetrack_comparison {
     display: flex;
     flex-wrap: row;
-    padding: 0 0 6%;
-}
-
-.eyetrackB_content {
-    padding-left: 5%;
-}
-
-.eyetrackB_img {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.eyetrackB_img>img {
-    max-width: 50%;
+    padding: 6% 0 0;
 }
 
 
-/* part8 */
-.part8 {
+.eyetrack_comparison_content>img {
+    max-width: 760px;
+    padding-bottom: 20px;
+}
+
+
+
+/* reflection */
+.reflection {
     padding: 6% 0 6%;
     background-color: #fafafa;
 }
 
-.part8_content {
+.reflection_content {
     padding: 0 20% 0;
 }
 
-.part8_content>h2 {
+.reflection_content>h2 {
     text-align: center;
     padding: 0 0 4%;
 }
