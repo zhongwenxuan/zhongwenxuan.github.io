@@ -42,168 +42,234 @@
         </div>
     </div>
     <div id="content">
-        <div class="part1">
+        <div class="overall">
             <h1>Cotton Bureau Redesign</h1>
-            <div class="basic_information">
+            <div class="project_information">
                 <span class="table_title">时间(Time)：</span>
-                <span class="table_content">2020.10.15-2021.11.07</span>
+                <span class="table_content">2020.10-2020.11</span>
+                <span class="table_title">角色(Role)：</span>
+                <span class="table_content">个人项目</span>
                 <span class="table_title">工具(Tools)：</span>
                 <span class="table_content">XD、PS、ID</span>
             </div>
-            <div class="show1">
-                <img src="../src/img/png/cb_show1.png">
+            <div class="heroshot">
+                <img src="../src/img/png/cb_heroshot.png">
             </div>
-            <p class="brief_introduction">
-                项目是可用性课程的作业，对
-                <a href="http://cottonbureau.com/">Cotton Bureau</a>，一个美国的服装线上购物网站进行重设计。
-                <br>项目中使用一系列方法，对原网站进行可用性和可访问性进行评估，挖掘网站存在的问题
-                <br>再根据可用性设计原则进行重设计，并进行定性和定量测试，以评估设计效果
+            <p class="brief">
+                该项目综合定性和定量方法，对网站进行可用性、性能、满意度评估，
+                <br>根据评估结果，针对性进行设计改版。最终以A/B 测试验证重设计的效果。
             </p>
-            <p class="en_brief_introduction">
-                This project is the coursework of Usibility, Principles and Practice, redesigning the online shopping
-                website Cotton Bureau.
-                <br>A series of methods were used in the project to evaluate the usability and accessibility of the
-                original website and to discover existing problems.
-                <br>Then redesign the website according to the usability design principles. Finally, evaluating the
-                outcome by qualitative and quantitative tests.
-            </p>
+            <img src="../src/img/svg/cb_process.svg" style="max-width:70%">
         </div>
-        <div class="part2">
-            <div class="part2_content">
+        <div class="background">
+            <div class="background_content">
                 <h2>01 背景
                     <p class="en_h2">Background</p>
                 </h2>
-                <div class="background">
+                <div class="background_introduction">
                     <p>
-                        Cotton Bureau是一家创新的在线零售商，成立于2013年，总部设在美国宾夕法尼亚州。
-                        <br>他们主要提供定制T恤服务，公司提供空白服装，设计师可以通过网站上传自己的作品，进行印刷和在线销售。
-                        <br>他们的主要消费者包括设计提供商如设计师、企业、机构等，以及消费者如T恤爱好者。
-                        <br>当前的网站设计虽然简洁直观，但是却存在不少的可用性问题。
+                        <a href="http://cottonbureau.com/" style="color: #ffffff;">Cotton Bureau</a>
+                        是美国一个线上创意服装平台，成立于2013年。
+                        <br>主要为设计师、品牌、代理、企业组织等提供T恤印刷和在线销售服务。
+                        <br>2014年，Cotton Bureau营收超100万美元，并且在2016年获得 Indie VC的50万美元种子投资(Conti, 2015)。
+                        <br>2017年以来，随着公司扩张，网站月平均访问量增长达27.77% (Crunchbase.com, 2020)。
                     </p>
                 </div>
             </div>
         </div>
-        <div class="part3">
-            <div class="part3_content">
-                <h2>02 设计目标
-                    <p class="en_h2">Design Objectives</p>
+        <div class="website_analysis">
+            <div class="website_analysis_content">
+                <h2>02 网站分析
+                    <p class="en_h2">Website Analysis</p>
+                </h2>
+                <div class="website_analysis_introduction">
+                    <img class="cb_homepage" src="../src/img/jpg/cb_homepage.jpg">
+                    <div class="website_analysis_text">
+                        <div class="style_analysis">
+                            <h3>风格分析
+                                <p class="en_h3">Style Analysis</p>
+                            </h3>
+                            <p class="text">
+                                针对寻求独特产品的创意设计师和消费者，
+                                <br>Cotton Bureau通过高质量的插图元素来突出创意氛围。
+                                <br>橙红色的主色调充满活力，符合年轻目标受众的偏好。
+                                <br>网站整体结构简单，网格布局清晰直观。
+                            </p>
+                        </div>
+                        <div class="site_status">
+                            <h3>网站现状
+                                <p class="en_h3">Site Status</p>
+                            </h3>
+                            <p class="text">
+                                Hypestat数据显示，网站每天约有69,000独立访客(UV)和200,000页面浏览量(PV)，
+                                <br>访客平均浏览量为2.9 (Hypestat.com,2020)。
+                                <br>访客分布在世界各地，主要来自美国(36％)和印度(15.3％) (Alexa.cn,2020)。
+                                <br><b>然而，网站的平均访问时长只有02:17，跳出率为41.4％</b> (Alexa.com,2020)。
+                                <br>说明许多访客在进入网站后又快速离开，平台因此丢失潜在交易机会。
+                                <br> 另外，谷歌PageSpeed Insights报告，网站性能只有53分，低于合格值(Developers.google.cn,2020)。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="design_goal">
+            <div class="design_goal_content">
+                <h2>03 目标定义
+                    <p class="en_h2">Design Goal</p>
                 </h2>
                 <div class="toptask">
-                    <h3>首要任务
-                        <p class="en_h3">Top <br>Tasks</p>
-                    </h3>
+                    <div class="h3">
+                        <h3>首要任务
+                            <p class="en_h3">Top Tasks</p>
+                        </h3>
+                    </div>
                     <div class="toptask_content">
+                        <img src="../src/img/svg/cb_toptask_2020.svg">
                         <p>
-                            根据连续两年的课堂调研，在线上时装网站购物时，年轻人最关注配送、图片质量、尺码、顾客反馈、商品描述等。
+                            通过首要任务调查，了解用户在使用时最关心的功能，以此为依据设置测试任务。
+                            <br>调研发现，用户最关注配送、图片质量、尺码、顾客反馈、商品描述等信息。
                         </p>
-                        <img src="../src/img/png/cb_toptask.png">
+
                     </div>
                 </div>
                 <div class="goal">
-                    <h3>评估目标
-                        <p class="en_h3">Goals</p>
-                    </h3>
-                    <div class="goal_content">
-                        <p>主要关注首要任务相关的功能，
-                            <br>包括配送、退货、服装图示、客户评论、尺寸和合身性、产品说明、筛选、搜索。
-                            <br>以评估结果作为参考，重新设计网站，与A/B测试结合，保证重设计良好的用户体验
+                    <div class="h3">
+                        <h3>评估目标
+                            <p class="en_h3">Goals</p>
+                        </h3>
+                    </div>
+                    <div class="goal_text">
+                        <p>根据首要任务，本次评估目标为，测试网站购物的商品挑选、商品浏览、下单流程。
+                            <br>主要任务包括筛选、搜索商品，查看配送、退货信息，浏览服装图、商品描述、顾客反馈，判断尺码是否合身。
                         </p>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="part4">
-            <div class="part4_content">
-                <h2>03 评估过程
+        <div class="evaluation">
+            <div class="evaluation_content">
+                <h2>04 评估过程
                     <p class="en_h2">Usability and Accessibility Evaluation</p>
                 </h2>
                 <div class="heuristics">
-                    <h3>启发式<br>评估
-                        <p class="en_h3"> Heuristics<br>Evaluation</p>
-                    </h3>
+                    <div class="h3">
+                        <h3>启发式
+                            <p class="en_h3"> Heuristics<br>Evaluation</p>
+                        </h3>
+                    </div>
                     <div class="heuristics_content">
-                        <p>5人一组，用尼尔森十项评估法则对网站进行评估</p>
-                        <div class="heuristicsimg">
-                            <img src="../src/img/png/cb_heuristics1.png">
-                            <img src="../src/img/png/cb_heuristics2.png">
-                            <img src="../src/img/png/cb_heuristics3.png">
-                        </div>
+                        <img src="../src/img/svg/cb_heuristics.svg">
+                        <p class="text">邀请5名UX研究生作为专家组，用Nielsen&Molich十项评估法则对网站进行评估。
+                            <br>走查发现，首页和商品页存在最多的可用性问题，其中主要问题为：
+                            <br>· 不符合用户在现实中的购物习惯，商品列表无价格标签；banner推广和优惠信息不清晰；
+                            <br>· 用户使用时的控制和自由度低，无法按价格筛选商品；商品列表页码和定位器缺失，只能不断下拉加载商品；
+                            <br>· 不能很好地预防错误，下单时先填写配送信息再跳转登录，易导致信息丢失</p>
                     </div>
                 </div>
                 <div class="accessibility">
-                    <h3>可访问性<br>评估
-                        <p class="en_h3">Accessibility <br>Evaluation</p>
-                    </h3>
+                    <div class="h3">
+                        <h3>可访问性
+                            <p class="en_h3">Accessibility <br>Evaluation</p>
+                        </h3>
+                    </div>
                     <div class="accessibility_content">
-                        <p>5人一组，用WCAG2.1的A级评估表对网站进行评估</p>
-                        <div class="accessibility_result">
-                            <img src="../src/img/png/cb_accessibility.png">
-                        </div>
+                        <img src="../src/img/svg/cb_accessibility.svg">
+                        <p class="text">同一专家组继续参考WCAG2.1的A级评估表对网站可访问性进行评估，
+                            <br>同时，使用可访问性检查工具Wave 检测 AA 和 AAA级别的问题。
+                            <br>走查发现主要的可访问性问题包括：
+                            <br>· 文本字号过小
+                            <br>· 文本、按钮和其他元素的对比度低
+                            <br>· 过滤器和菜单不合逻辑
+                            <br>· 缺少图标、图像、链接和其他元素的标签和替代文本
+                            <br>· 难以用键盘操作进行列表选择（盲人无障碍操作）
+                        </p>
                     </div>
                 </div>
                 <div class="performance">
-                    <h3>性能评估
-                        <p class="en_h3">Performance <br>Measurement</p>
-                    </h3>
+                    <div class="h3">
+                        <h3>性能
+                            <p class="en_h3">Performance <br>Measurement</p>
+                        </h3>
+                    </div>
                     <div class="performance_content">
-                        <p>围绕关键功能设置测试任务，任务1关于搜索，过滤，选择产品；任务2关于产品图片，用户评论，产品描述；
-                            <br>任务3关于尺码和合身判断。以花费时间、成功率、犯错数、迷失率来评估性能
+                        <img src="../src/img/svg/cb_performance.svg">
+                        <p class="text">围绕关键功能，用场景法设置测试任务，邀请15名目标用户进行测试，以花费时间、成功率、犯错数、完成率来评估性能。
+                            <br>结果显示，<b>平均迷失率为0.31</b>，犯错率不高，网站基本性能良好。
+                            <br>然而任务2完成率低，因为网站缺少顾客反馈模块，商品图片和描述很少。
+                            <br>任务3平均花费时间长，因为商品页尺码信息不足，用户难以判断是否合身，并且配送和售后信息不全，条款冗长难以理解。
                         </p>
-                        <div class="performance_result">
-                            <img src="../src/img/png/cb_performance1.png">
-                            <img src="../src/img/png/cb_performance2.png">
-                            <img src="../src/img/png/cb_performance3.png">
-                        </div>
                     </div>
                 </div>
                 <div class="satisfaction">
-                    <h3>满意度<br>评估
-                        <p class="en_h3">Satisfaction<br>Evaluation</p>
-                    </h3>
+                    <div class="h3">
+                        <h3 class="h3">满意度
+                            <p class="en_h3">Satisfaction<br>Evaluation</p>
+                        </h3>
+                    </div>
                     <div class="satisfaction_content">
-                        <p>用定性和定量结合的方式测试满意度
-                            <br>定量测试使用系统可用性量表(SUS)，
-                            <br>定性测试使用发生思考法(Think Aloud Method)配合主题分析(Thematic Analysis)
+                        <img src="../src/img/svg/cb_satisfaction.svg">
+                        <p class="text">定量测试:
+                            <br>77名年轻设计师被邀请执行上述任务，并填写SUS问卷 (System Usability Scale)
+                            <br> 定性测试：为了深入了解用户的期望，采用发声思考法结合主题分析进一步研究用户的想法、行为、感受。
+                            <br>6名UX学生被邀请执行任务，边执行边说出他们的想法、目的和感受，整个过程被录像，随后进行文本转录和分析。
+                            <br>网站SUS得分为65分，仅介于OK和Good之间，达不到用户期望。
+                            <br>测试发现网站许多功能缺陷和细节错误，用户使用过程中容易因这些问题生气并感到不耐烦。
+                            <br>最严重的问题是缺少商品细节信息，图片角度单一，商品说明和尺码信息不足，用户难以作出购物决策。
+                            <br>此外，配送和售后条款描述不清，大部分用户无法理解，导致放弃购买。
                         </p>
                     </div>
                 </div>
-                <div class="eyetrack">
-                    <h3>眼球追踪
-                        <p class="en_h3">Eye<br>Tracking</p>
-                    </h3>
-                    <div class="eyetrack_content">
-                        <p>使用眼球追踪设备，对主页进行视线移动、停留、注视的测试</p>
-                        <div class="eyetrack_result">
-                            <img src="../src/img/jpg/cb_eyetrack.jpg">
-                        </div>
+                <div class="biometrics">
+                    <div class="h3">
+                        <h3 class="h3">生物测量
+                            <p class="en_h3">Biometrics <br>Evaluation</p>
+                        </h3>
+                    </div>
+                    <div class="biometrics_content">
+                        <img src="../src/img/svg/cb_biometrics.svg">
+                        <p class="text">使用眼球追踪设备，对首页进行视线移动、停留、注视的测试，同时用AI工具Eyequant测试页面热点图。
+                            <br>结果显示，用户在首页视线扫描路径长，且许多关注点落在兴趣区之外，
+                            <br>扫描路径方向没有遵循最佳的动作顺序，有大量的后退扫视，说明用户容易在页面元素之间迷失。
+                            <br>商品页热点图显示页面难以吸引用户注意，且注意点分散。
+                            <br>网站需要调整结构，合理排布元素，突出重点信息。
+                        </p>
                     </div>
                 </div>
                 <div class="psychology">
-                    <h3>心理分析
-                        <p class="en_h3">Psychological<br>Analysis</p>
-                    </h3>
+                    <div class="h3">
+                        <h3 class="h3">心理分析
+                            <p class="en_h3">Psychological<br>Analysis</p>
+                        </h3>
+                    </div>
                     <div class="psychology_content">
-                        <p>根据色彩心理学理论、格式塔原理、信息气味、双重编码理论、
-                            <br>心理模型等界面设计的心理学原理对网站进行分析
+                        <p class="text">网站的风格符合目标用户人群，可保留配色方案、独特的图形背景来突出品牌的特征。
+                            <br>根据一致性原则，网站不同页面的顶部导航需统一。同时为了保证导航的可视性，应该将汉堡导航的内容整合到顶部导航。
+                            <br>根据双重编码理论，突出导航LOGO和icon并添加文字加强识别和记忆，商品描述中多使用图片代替大段文字。
+                            <br>为提供良好的信息气味，需要重新组织筛选器结构，梳理页脚内容，组织商品页信息排布顺序。
+                            <br>根据格式塔原理扩大商品列表中商品信息的间距，保证视觉清晰，增加明显的视觉分隔来区分不同商品的信息。
+                            <br>
                         </p>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="part5">
-            <div class="part5_content">
-                <h2>04 评估总结
+        <div class="evaluation_summary">
+            <div class="evaluation_summary_content">
+                <h2>05 评估总结
                     <p class="en_h2">Evaluation Summary</p>
                 </h2>
                 <div class="summary_content">
                     <div class="summary_bg">
                         <h3>整体情况</h3>
                         <p class="text">
-                            <br>网站的色彩、视觉风格合理
-                            <br>基础性能较好
-                            <br>但存在许多细节缺陷
-                            <br>整体满意度差
-                            <br>问题主要集中在主页和商品详情页
+                            <br>● 网站的色彩、视觉风格合理。
+                            <br>● 基础性能良好，但需要改进细节缺陷
+                            <br>来提高整体满意度。
+                            <br>● 优先改进主页和商品详情页，特别是主页导航、筛选器。
+                            <br>● 改进商品页面信息组织、补充缺漏的重要信息：
+                            <br>顾客反馈、尺码推荐、配送/售后信息、多角度商品图、
+                            <br>上身效果图、商品细节图。
                         </p>
                     </div>
                     <div class="summary_bg">
@@ -211,9 +277,9 @@
                         <p class="text">
                             <br>● 主页不能直观展示网站的销售内容和业务
                             <br>● 导航搜索栏重复且功能排布不合理
-                            <br>● 筛选器不完整且不合逻辑
-                            <br>● 产品列表没有翻页器，只能一直下拉
-                            <br>● 产品图片过少，缺少面料实物图和多角度图
+                            <br>● 筛选器筛选条件不完整且不合逻辑
+                            <br>● 产品列表没有翻页器，只能下拉加载
+                            <br>● 产品图片过少，缺少面料实物图、多角度图和模特图
                             <br>● 尺码信息不完善
                             <br>● 缺少产品细节描述
                             <br>● 缺少客户评论、退货信息，配送信息不清晰
@@ -234,9 +300,9 @@
                 </div>
             </div>
         </div>
-        <div class="part6">
-            <div class="part6_content">
-                <h2>05 网站重设计
+        <div class="redesign">
+            <div class="redesign_content">
+                <h2>06 网站重设计
                     <p class="en_h2">Website Redesign</p>
                 </h2>
                 <div class="sketch">
@@ -318,67 +384,59 @@
                 </div>
             </div>
         </div>
-        <div class="part7">
-            <div class="part7_content">
-                <h2>06 A/B测试
+        <div class="ABtest">
+            <div class="ABtest_content">
+                <h2>07 A/B测试
                     <p class="en_h2">A/B Testing</p>
                 </h2>
-                <div class="performanceB">
-                    <h3>性能对比
+                <div class="performance_comparison">
+                    <h3 class="h3">性能对比
                         <p class="en_h3">Performance</p>
                     </h3>
-                    <div class="performanceB_content">
+                    <div class="performance_comparison_content">
+                            <img src="../src/img/svg/cb_performance_comparison.svg">
                         <p>
-                            通过性能测试对比，重设计后的网站任务用时、犯错率、迷失率均明显降低，完成率上升
-                            <br>可见重设计后网页更易于使用
+                            通过性能测试对比，重设计后的网站任务用时、犯错率、迷失率均明显降低，完成率上升。
+                            <br>可见重设计后网页更易于使用。
                         </p>
-                        <div class="performanceB_img">
-                            <img src="../src/img/png/cb_performanceB1.png">
-                            <img src="../src/img/png/cb_performanceB2.png">
-                            <img src="../src/img/png/cb_performanceB3.png">
-                            <img src="../src/img/png/cb_performanceB4.png">
-                        </div>
                     </div>
                 </div>
-                <div class="satisfactionB">
-                    <h3>满意度对比
+                <div class="satisfaction_comparison">
+                    <h3 class="h3">满意度对比
                         <p class="en_h3">Satisfaction</p>
                     </h3>
-                    <div class="satisfactionB_content">
+                    <div class="satisfaction_comparison_content">
+                            <img src="../src/img/svg/cb_satisfaction_comparison.svg">
                         <p>
-                            通过满意度对比，可见，重设计后的网站用户满意度更高，体验更好
+                            通过对比可见，重设计后的网站用户满意度更高，体验更好。
                         </p>
-                        <img src="../src/img/png/cb_satisfactionB.png">
                     </div>
                 </div>
-                <div class="eyetrackB">
-                    <h3>眼球追踪对比
+                <div class="eyetrack_comparison">
+                    <h3 class="h3">眼球追踪对比
                         <p class="en_h3">Eye Tracking</p>
                     </h3>
-                    <div class="eyetrackB_content">
+                    <div class="eyetrack_comparison_content">
+                            <img src="../src/img/svg/cb_eyetrack_comparison.svg">
                         <p>用AI眼球追踪模拟工具
                             <a href="https://app.eyequant.com/seer-app/#/login">Eye Quant</a>
-                            对设计前后的网站进行分析
-                            <br>结果显示，重设计后的网站功能更加清晰，也更有吸引力
+                            对设计前后的网站进行分析，
+                            <br>结果显示，重设计后的网站功能更加清晰，也更有吸引力。
                         </p>
-                        <div class="eyetrackB_img">
-                            <img src="../src/img/png/cb_eyetrackB1.png">
-                            <img src="../src/img/png/cb_eyetrackB2.png">
-                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="part8">
-            <div class="part8_content">
-                <h2>08 反思
+        <div class="reflection">
+            <div class="reflection_content">
+                <h2>09 反思
                     <p class="en_h2">Reflection</p>
                 </h2>
-                <div class="reflection">
-                    <p class="text">1.由于我们无法与品牌方直接交流，因此首要任务的调查只是基于笼统的在线购物，而不针对具体的品牌。
-                        <br>如果有条件，最好根据品牌目标进行首要任务研究，然后根据市场进行优化。
-                        <br>2.由于时间和资源的限制，该研究的大多数参与者是UX设计的学生，覆盖的人口有限。
-                        <br>3.另外，测试是小规模测试。在更准确，更专业的研究中，应当邀请更多参与者参加测试
+                <div class="reflection_text">
+                    <p class="text">1.由于时间限制，首要任务的调查未针对品牌特点进行细化。
+                        <br>在进一步改进中，可以根据品牌目标进行首要任务研究，结合市场进行优化。
+                        <br>2.由于人力资源的限制，研究的目标用户主要为学生群体，覆盖的人口有限。
+                        <br>3.另外，定量测试规模有限，在精准的的研究中，应提高测试数量，进行用户细分，
                         <br>比如招募老顾客，对品牌感兴趣的新用户以及一般人群，以取得更可靠的结果。
                     </p>
                 </div>
