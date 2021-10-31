@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1651" height="462" viewBox="0 0 1651 462">
+  <g id="组_38" data-name="组 38" transform="translate(0 -1048)">
+    <g id="Ring_Chart0" data-name="Ring Chart0" transform="translate(6.05 396.546)">
+      <path id="路径_21" data-name="路径 21" d="M0-56.5A112.41,112.41,0,0,1,109.546,30.7L88.219,35.608A90.525,90.525,0,0,0,0-34.615Z" transform="translate(1434.107 812.454)" fill="#f46353" stroke="#fff" stroke-width="2" opacity="0.2"/>
+      <path id="路径_22" data-name="路径 22" d="M89.865-12.671a112.41,112.41,0,0,1-60.41,126.312L19.889,93.957A90.525,90.525,0,0,0,68.538-7.763Z" transform="translate(1453.788 856.793)" fill="#f46353" stroke="#fff" stroke-width="2" opacity="0.4"/>
+      <path id="路径_23" data-name="路径 23" d="M103.622,91a112.41,112.41,0,0,1-97.636.307,112.41,112.41,0,0,1-61.047-76.2L-33.733,10.2A90.525,90.525,0,0,0,15.428,71.568a90.525,90.525,0,0,0,78.627-.247Z" transform="translate(1378.653 879.43)" fill="#f46353" stroke="#fff" stroke-width="2" opacity="0.7"/>
+      <path id="路径_24" data-name="路径 24" d="M-53.636,81.12A112.41,112.41,0,0,1,55.91-56.5v21.885A90.525,90.525,0,0,0-32.308,76.212Z" transform="translate(1377.228 812.454)" fill="#f46353" stroke="#fff" stroke-width="2"/>
+    </g>
+    <path id="路径_10" data-name="路径 10" d="M748,787.262h52.91l21.726-24.182" transform="translate(31.292 597.379)" fill="none" stroke="#f46353" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" opacity="0.7"/>
+    <path id="路径_16" data-name="路径 16" d="M748,787.262h52.91l21.726-24.182" transform="translate(548.268 597.379)" fill="none" stroke="#f46353" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" opacity="0.7"/>
+    <path id="路径_11" data-name="路径 11" d="M839.844,814.4H799.966l-39.778-40.312" transform="translate(252.874 569.562)" fill="none" stroke="#f46353" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path id="路径_20" data-name="路径 20" d="M839.844,814.4H799.966l-39.778-40.312" transform="translate(769.85 569.562)" fill="none" stroke="#f46353" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path id="矩形_56" data-name="矩形 56" d="M3,0H27a3,3,0,0,1,3,3V24a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V3A3,3,0,0,1,3,0Z" transform="translate(198 1253)" fill="#f46353"/>
+    <rect id="矩形_55" data-name="矩形 55" width="30" height="71" transform="translate(198 1277)" fill="#f46353" opacity="0.7"/>
+    <rect id="矩形_54" data-name="矩形 54" width="30" height="117" transform="translate(198 1348)" fill="#f46353" opacity="0.3"/>
+    <text id="_5" data-name="5" transform="translate(207 1414)" fill="#fff" font-size="20" font-family="MicrosoftYaHei, Microsoft YaHei"><tspan x="0" y="0">5</tspan></text>
+    <text id="_3" data-name="3" transform="translate(207 1320)" fill="#fff" font-size="20" font-family="MicrosoftYaHei, Microsoft YaHei"><tspan x="0" y="0">3</tspan></text>
+    <text id="_1" data-name="1" transform="translate(207 1273)" fill="#fff" font-size="20" font-family="MicrosoftYaHei, Microsoft YaHei"><tspan x="0" y="0">1</tspan></text>
+    <path id="矩形_60" data-name="矩形 60" d="M3,0H27a3,3,0,0,1,3,3V25a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V3A3,3,0,0,1,3,0Z" transform="translate(393 1369)" fill="#f46353" opacity="0.7"/>
+    <rect id="矩形_59" data-name="矩形 59" width="30" height="71" transform="translate(393 1394)" fill="#f46353" opacity="0.3"/>
+    <text id="_1-2" data-name="1" transform="translate(402 1389)" fill="#fff" font-size="20" font-family="MicrosoftYaHei, Microsoft YaHei"><tspan x="0" y="0">1</tspan></text>
+    <text id="_3-2" data-name="3" transform="translate(402 1437)" fill="#fff" font-size="20" font-family="MicrosoftYaHei, Microsoft YaHei"><tspan x="0" y="0">3</tspan></text>
+    <text id="订单页" transform="translate(381 1504)" fill="#333" font-size="22" font-family="MicrosoftYaHei, Microsoft YaHei"><tspan x="0" y="0">订单页</tspan></text>
+    <path id="矩形_50" data-name="矩形 50" d="M3,0H27a3,3,0,0,1,3,3V118a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V3A3,3,0,0,1,3,0Z" transform="translate(100 1136)" fill="#f46353" opacity="0.7"/>
+    <rect id="矩形_51" data-name="矩形 51" width="30" height="211" transform="translate(100 1254)" fill="#f46353" opacity="0.3"/>
+    <text id="_9" data-name="9" transform="translate(109 1376)" fill="#fff" font-size="20" font-family="MicrosoftYaHei, Microsoft YaHei"><tspan x="0" y="0">9</tspan></text>
+    <text id="_5-2" data-name="5" transform="translate(109 1202)" fill="#fff" font-size="20" font-family="MicrosoftYaHei, Microsoft YaHei"><tspan x="0" y="0">5</tspan></text>
+    <path id="矩形_57" data-name="矩形 57" d="M3,0H27a3,3,0,0,1,3,3V71a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V3A3,3,0,0,1,3,0Z" transform="translate(295 1394)" fill="#f46353"/>
+    <text id="_3-3" data-name="3" transform="translate(304 1437)" fill="#fff" font-size="20" font-family="MicrosoftYaHei, Microsoft YaHei"><tspan x="0" y="0">3</tspan></text>
+    <path id="矩形_58" data-name="矩形 58" d="M3,0H27a3,3,0,0,1,3,3V93a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V3A3,3,0,0,1,3,0Z" transform="translate(490 1372)" fill="#f46353" opacity="0.3"/>
+    <text id="_4" data-name="4" transform="translate(499 1426)" fill="#fff" font-size="20" font-family="MicrosoftYaHei, Microsoft YaHei"><tspan x="0" y="0">4</tspan></text>
+    <text id="首页" transform="translate(0 1504)" fill="#333" font-size="22" font-family="MicrosoftYaHei, Microsoft YaHei"><tspan x="0" y="0">首页</tspan></text>
+    <text id="商品页" transform="translate(88 1504)" fill="#333" font-size="22" font-family="MicrosoftYaHei, Microsoft YaHei"><tspan x="0" y="0">商品页</tspan></text>
+    <text id="购物车" transform="translate(186 1504)" fill="#333" font-size="22" font-family="MicrosoftYaHei, Microsoft YaHei"><tspan x="0" y="0">购物车</tspan></text>
+    <text id="登录页" transform="translate(283 1504)" fill="#333" font-size="22" font-family="MicrosoftYaHei, Microsoft YaHei"><tspan x="0" y="0">登录页</tspan></text>
+    <text id="其他" transform="translate(487 1504)" fill="#333" font-size="22" font-family="MicrosoftYaHei, Microsoft YaHei"><tspan x="0" y="0">其他</tspan></text>
+    <path id="矩形_47" data-name="矩形 47" d="M3,0H27a3,3,0,0,1,3,3V119a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V3A3,3,0,0,1,3,0Z" transform="translate(3 1110)" fill="#f46353"/>
+    <rect id="矩形_48" data-name="矩形 48" width="30" height="141" transform="translate(3 1229)" fill="#f46353" opacity="0.7"/>
+    <rect id="矩形_49" data-name="矩形 49" width="30" height="95" transform="translate(3 1370)" fill="#f46353" opacity="0.3"/>
+    <text id="_5-3" data-name="5" transform="translate(12 1170)" fill="#fff" font-size="20" font-family="MicrosoftYaHei, Microsoft YaHei"><tspan x="0" y="0">5</tspan></text>
+    <text id="_4-2" data-name="4" transform="translate(12 1425)" fill="#fff" font-size="20" font-family="MicrosoftYaHei, Microsoft YaHei"><tspan x="0" y="0">4</tspan></text>
+    <text id="_6" data-name="6" transform="translate(12 1303)" fill="#fff" font-size="20" font-family="MicrosoftYaHei, Microsoft YaHei"><tspan x="0" y="0">6</tspan></text>
+    <g id="组_8" data-name="组 8" transform="translate(-305 512)">
+      <text id="重要" transform="translate(789 614)" fill="#666" font-size="18" font-family="MicrosoftYaHei, Microsoft YaHei"><tspan x="0" y="0">重要</tspan></text>
+      <text id="中等" transform="translate(789 650)" fill="#666" font-size="18" font-family="MicrosoftYaHei, Microsoft YaHei"><tspan x="0" y="0">中等</tspan></text>
+      <text id="次要" transform="translate(789 686)" fill="#666" font-size="18" font-family="MicrosoftYaHei, Microsoft YaHei"><tspan x="0" y="0">次要</tspan></text>
+      <rect id="矩形_47-2" data-name="矩形 47" width="20" height="20" rx="2" transform="translate(754 598)" fill="#f46353"/>
+      <rect id="矩形_48-2" data-name="矩形 48" width="20" height="20" rx="2" transform="translate(754 634)" fill="#f46353" opacity="0.7"/>
+      <rect id="矩形_49-2" data-name="矩形 49" width="20" height="20" rx="2" transform="translate(754 670)" fill="#f46353" opacity="0.3"/>
+    </g>
+    <line id="直线_2" data-name="直线 2" x2="517" transform="translate(3.5 1465.5)" fill="none" stroke="#ccc" stroke-width="1"/>
+    <text id="不同页面存在的可用性问题数量" transform="translate(0 1073)" fill="#333" font-size="24" font-family="MicrosoftYaHei-Bold, Microsoft YaHei" font-weight="700"><tspan x="0" y="0">不同页面存在的可用性问题数量</tspan></text>
+    <text id="首页可用性_问题分布" data-name="首页可用性
+问题分布" transform="translate(923 1260.614)" fill="#333" font-size="24" font-family="MicrosoftYaHei-Bold, Microsoft YaHei" font-weight="700"><tspan x="-60" y="0">首页可用性</tspan><tspan x="-48" y="30">问题分布</tspan></text>
+    <text id="商品页可用性_问题分布" data-name="商品页可用性
+问题分布" transform="translate(1439.975 1260.614)" fill="#333" font-size="24" font-family="MicrosoftYaHei-Bold, Microsoft YaHei" font-weight="700"><tspan x="-72" y="0">商品页可用性</tspan><tspan x="-48" y="30">问题分布</tspan></text>
+    <g id="组_10" data-name="组 10" transform="translate(36 424)">
+      <path id="路径_5" data-name="路径 5" d="M0-12A112.9,112.9,0,0,1,83.743,25.18L69.786,37.8A94.084,94.084,0,0,0,0,6.817Z" transform="translate(886.703 739.881)" fill="#f46353" stroke="#fff" stroke-width="2" opacity="0.2"/>
+      <path id="路径_6" data-name="路径 6" d="M34.32-8.048a112.9,112.9,0,0,1,28.551,87.4,112.9,112.9,0,0,1-45.933,79.655L5.878,143.788A94.084,94.084,0,0,0,44.155,77.409,94.084,94.084,0,0,0,20.363,4.572Z" transform="translate(936.127 773.109)" fill="#f46353" stroke="#fff" stroke-width="2" opacity="0.4"/>
+      <path id="路径_7" data-name="路径 7" d="M153.849,49.449A112.9,112.9,0,0,1,63.9,68.52,112.9,112.9,0,0,1-10.4,14.356L5.911,4.982a94.084,94.084,0,0,0,61.92,45.136,94.084,94.084,0,0,0,74.959-15.892Z" transform="translate(799.215 882.671)" fill="#f46353" stroke="#fff" stroke-width="2" opacity="0.7"/>
+      <path id="路径_8" data-name="路径 8" d="M3.008,157.146A112.9,112.9,0,0,1,100.9-12V6.817A94.084,94.084,0,0,0,19.323,147.772Z" transform="translate(785.803 739.881)" fill="#f46353" stroke="#fff" stroke-width="2"/>
+    </g>
+    <path id="路径_9" data-name="路径 9" d="M772.005,769.42h42.342l22.995,24.194" transform="translate(5.912 383)" fill="none" stroke="#f46353" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path id="路径_13" data-name="路径 13" d="M772.005,769.42h42.342l22.995,24.194" transform="translate(522.888 383)" fill="none" stroke="#f46353" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path id="路径_12" data-name="路径 12" d="M855.7,769.42H796.913l-24.994,26.968" transform="translate(233.324 383)" fill="none" stroke="#f46353" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" opacity="0.2"/>
+    <path id="路径_19" data-name="路径 19" d="M855.7,769.42H796.913l-24.994,26.968" transform="translate(750.3 383)" fill="none" stroke="#f46353" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" opacity="0.2"/>
+    <text id="商品列表" transform="translate(731 1119)" fill="#333" font-size="20" font-family="MicrosoftYaHei, Microsoft YaHei"><tspan x="0" y="0">商品列表</tspan></text>
+    <text id="商品描述" transform="translate(1248 1119)" fill="#333" font-size="20" font-family="MicrosoftYaHei, Microsoft YaHei"><tspan x="0" y="0">商品描述</tspan></text>
+    <text id="_5-4" data-name="5" transform="translate(731 1165)" fill="#f46353" font-size="34" font-family="MicrosoftYaHei, Microsoft YaHei"><tspan x="0" y="0">5</tspan></text>
+    <text id="_4-3" data-name="4" transform="translate(1247.975 1165)" fill="#f46353" font-size="34" font-family="MicrosoftYaHei, Microsoft YaHei"><tspan x="0" y="0">4</tspan></text>
+    <text id="_4-4" data-name="4" transform="translate(731 1397)" fill="#f46353" font-size="34" font-family="MicrosoftYaHei, Microsoft YaHei"><tspan x="0" y="0">4</tspan></text>
+    <text id="_4-5" data-name="4" transform="translate(1247.975 1397)" fill="#f46353" font-size="34" font-family="MicrosoftYaHei, Microsoft YaHei"><tspan x="0" y="0">4</tspan></text>
+    <text id="_4-6" data-name="4" transform="translate(1118.025 1397)" fill="#f46353" font-size="34" font-family="MicrosoftYaHei, Microsoft YaHei"><tspan x="0" y="0">4</tspan></text>
+    <text id="_3-4" data-name="3" transform="translate(1631 1397)" fill="#f46353" font-size="34" font-family="MicrosoftYaHei, Microsoft YaHei"><tspan x="0" y="0">3</tspan></text>
+    <text id="_2" data-name="2" transform="translate(1118.025 1166)" fill="#f46353" font-size="34" font-family="MicrosoftYaHei, Microsoft YaHei"><tspan x="0" y="0">2</tspan></text>
+    <text id="_3-5" data-name="3" transform="translate(1631 1166)" fill="#f46353" font-size="34" font-family="MicrosoftYaHei, Microsoft YaHei"><tspan x="0" y="0">3</tspan></text>
+    <text id="banner" transform="translate(1071.025 1119)" fill="#333" font-size="20" font-family="MicrosoftYaHei, Microsoft YaHei"><tspan x="0" y="0">banner</tspan></text>
+    <text id="尺码信息" transform="translate(1569 1119)" fill="#333" font-size="20" font-family="MicrosoftYaHei, Microsoft YaHei"><tspan x="0" y="0">尺码信息</tspan></text>
+    <text id="筛选器" transform="translate(731 1431)" fill="#333" font-size="20" font-family="MicrosoftYaHei, Microsoft YaHei"><tspan x="0" y="0">筛选器</tspan></text>
+    <text id="导航" transform="translate(1248 1431)" fill="#333" font-size="20" font-family="MicrosoftYaHei, Microsoft YaHei"><tspan x="0" y="0">导航</tspan></text>
+    <text id="导航-2" data-name="导航" transform="translate(1096.025 1431)" fill="#333" font-size="20" font-family="MicrosoftYaHei, Microsoft YaHei"><tspan x="0" y="0">导航</tspan></text>
+    <text id="图片" transform="translate(1605.025 1431)" fill="#333" font-size="20" font-family="MicrosoftYaHei, Microsoft YaHei"><tspan x="0" y="0">图片</tspan></text>
+    <rect id="矩形_47-3" data-name="矩形 47" width="14" height="14" rx="7" transform="translate(766 1145)" fill="#f46353"/>
+    <rect id="矩形_64" data-name="矩形 64" width="14" height="14" rx="7" transform="translate(1282.975 1145)" fill="#f46353"/>
+    <rect id="矩形_63" data-name="矩形 63" width="14" height="14" rx="7" transform="translate(1089 1145)" fill="#f46353" opacity="0.2"/>
+    <rect id="矩形_66" data-name="矩形 66" width="14" height="14" rx="7" transform="translate(1605.975 1145)" fill="#f46353" opacity="0.2"/>
+    <rect id="矩形_61" data-name="矩形 61" width="14" height="14" rx="7" transform="translate(765.918 1377)" fill="#f46353" opacity="0.7"/>
+    <rect id="矩形_65" data-name="矩形 65" width="14" height="14" rx="7" transform="translate(1282.893 1377)" fill="#f46353" opacity="0.7"/>
+    <rect id="矩形_62" data-name="矩形 62" width="14" height="14" rx="7" transform="translate(1089.5 1377)" fill="#f46353"/>
+    <rect id="矩形_67" data-name="矩形 67" width="14" height="14" rx="7" transform="translate(1606 1377)" fill="#f46353"/>
+  </g>
+</svg>

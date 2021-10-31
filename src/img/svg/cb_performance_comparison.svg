@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1558" height="333" viewBox="0 0 1558 333">
+  <g id="组_49" data-name="组 49" transform="translate(0 -3877)">
+    <text id="重设计" transform="translate(35 4203)" fill="#666" font-size="18" font-family="MicrosoftYaHei, Microsoft YaHei"><tspan x="0" y="0">重设计</tspan></text>
+    <text id="原网站" transform="translate(149 4204)" fill="#666" font-size="18" font-family="MicrosoftYaHei, Microsoft YaHei"><tspan x="0" y="0">原网站</tspan></text>
+    <rect id="矩形_132" data-name="矩形 132" width="20" height="20" rx="2" transform="translate(0 4187)" fill="#f46353"/>
+    <rect id="矩形_133" data-name="矩形 133" width="20" height="20" rx="2" transform="translate(114 4188)" fill="#ffae00"/>
+    <text id="迷失率对比" transform="translate(0 3902)" fill="#333" font-size="24" font-family="MicrosoftYaHei-Bold, Microsoft YaHei" font-weight="700"><tspan x="0" y="0">迷失率对比</tspan></text>
+    <rect id="矩形_48" data-name="矩形 48" width="30" height="141" transform="translate(114 4023)" fill="#ffae00"/>
+    <rect id="矩形_49" data-name="矩形 49" width="30" height="95" transform="translate(0 4069)" fill="#f46353"/>
+    <text id="_0.074" data-name="0.074" transform="translate(0 4046)" fill="#f46353" font-size="22" font-family="MicrosoftYaHei, Microsoft YaHei"><tspan x="0" y="0">0.074</tspan></text>
+    <text id="_0.31" data-name="0.31" transform="translate(114 4006)" fill="#ffae00" font-size="22" font-family="MicrosoftYaHei, Microsoft YaHei"><tspan x="0" y="0">0.31</tspan></text>
+    <line id="直线_8" data-name="直线 8" x2="144" transform="translate(0.5 4164.5)" fill="none" stroke="#ccc" stroke-width="1"/>
+    <g id="组_48" data-name="组 48" transform="translate(-91)">
+      <text id="平均犯错数对比" transform="translate(1314 3902)" fill="#333" font-size="24" font-family="MicrosoftYaHei-Bold, Microsoft YaHei" font-weight="700"><tspan x="0" y="0">平均犯错数对比</tspan></text>
+      <text id="任务1" transform="translate(1332 4205)" fill="#666" font-size="18" font-family="MicrosoftYaHei, Microsoft YaHei"><tspan x="0" y="0">任务1</tspan></text>
+      <rect id="矩形_134" data-name="矩形 134" width="20" height="90" transform="translate(1346 4073.5)" fill="#ffae00"/>
+      <rect id="矩形_135" data-name="矩形 135" width="20" height="123" transform="translate(1316 4040.5)" fill="#f46353"/>
+      <text id="_1.00" data-name="1.00" transform="translate(1314 4030.5)" fill="#f46353" font-size="18" font-family="MicrosoftYaHei, Microsoft YaHei"><tspan x="0" y="0">1.00</tspan></text>
+      <text id="_0.73" data-name="0.73" transform="translate(1348 4064.5)" fill="#ffae00" font-size="18" font-family="MicrosoftYaHei, Microsoft YaHei"><tspan x="0" y="0">0.73</tspan></text>
+      <text id="任务2" transform="translate(1418 4205)" fill="#666" font-size="18" font-family="MicrosoftYaHei, Microsoft YaHei"><tspan x="0" y="0">任务2</tspan></text>
+      <rect id="矩形_137" data-name="矩形 137" width="20" height="74" transform="translate(1436 4089.5)" fill="#ffae00"/>
+      <rect id="矩形_136" data-name="矩形 136" width="20" height="14" transform="translate(1406 4149.5)" fill="#f46353"/>
+      <text id="_0.11" data-name="0.11" transform="translate(1399 4140.5)" fill="#f46353" font-size="18" font-family="MicrosoftYaHei, Microsoft YaHei"><tspan x="0" y="0">0.11</tspan></text>
+      <text id="_0.60" data-name="0.60" transform="translate(1433 4080.5)" fill="#ffae00" font-size="18" font-family="MicrosoftYaHei, Microsoft YaHei"><tspan x="0" y="0">0.60</tspan></text>
+      <text id="任务3" transform="translate(1511 4205)" fill="#666" font-size="18" font-family="MicrosoftYaHei, Microsoft YaHei"><tspan x="0" y="0">任务3</tspan></text>
+      <rect id="矩形_138" data-name="矩形 138" width="20" height="99" transform="translate(1526 4064.5)" fill="#ffae00"/>
+      <rect id="矩形_139" data-name="矩形 139" width="20" height="14" transform="translate(1496 4149.5)" fill="#f46353"/>
+      <text id="_0.11-2" data-name="0.11" transform="translate(1489 4140.5)" fill="#f46353" font-size="18" font-family="MicrosoftYaHei, Microsoft YaHei"><tspan x="0" y="0">0.11</tspan></text>
+      <text id="_0.80" data-name="0.80" transform="translate(1523 4052.5)" fill="#ffae00" font-size="18" font-family="MicrosoftYaHei, Microsoft YaHei"><tspan x="0" y="0">0.80</tspan></text>
+      <text id="整体" transform="translate(1601 4205)" fill="#666" font-size="18" font-family="MicrosoftYaHei, Microsoft YaHei"><tspan x="0" y="0">整体</tspan></text>
+      <rect id="矩形_140" data-name="矩形 140" width="20" height="249" transform="translate(1616 3914.5)" fill="#ffae00"/>
+      <rect id="矩形_141" data-name="矩形 141" width="20" height="150" transform="translate(1586 4013.5)" fill="#f46353"/>
+      <text id="_1.22" data-name="1.22" transform="translate(1579 4002.5)" fill="#f46353" font-size="18" font-family="MicrosoftYaHei, Microsoft YaHei"><tspan x="0" y="0">1.22</tspan></text>
+      <text id="_2.00" data-name="2.00" transform="translate(1613 3906.5)" fill="#ffae00" font-size="18" font-family="MicrosoftYaHei, Microsoft YaHei"><tspan x="0" y="0">2.00</tspan></text>
+      <line id="直线_9" data-name="直线 9" x2="321" transform="translate(1316.5 4164)" fill="none" stroke="#ccc" stroke-width="1"/>
+    </g>
+    <g id="组_46" data-name="组 46" transform="translate(-19)">
+      <text id="任务耗时对比_s" data-name="任务耗时对比/s" transform="translate(340 3902)" fill="#333" font-size="24" font-family="MicrosoftYaHei-Bold, Microsoft YaHei" font-weight="700"><tspan x="0" y="0">任务耗时对比/s</tspan></text>
+      <text id="任务1-2" data-name="任务1" transform="translate(352 4205)" fill="#666" font-size="18" font-family="MicrosoftYaHei, Microsoft YaHei"><tspan x="0" y="0">任务1</tspan></text>
+      <rect id="矩形_134-2" data-name="矩形 134" width="20" height="71" transform="translate(373 4093)" fill="#ffae00"/>
+      <rect id="矩形_135-2" data-name="矩形 135" width="20" height="68" transform="translate(343 4096)" fill="#f46353"/>
+      <text id="_52.9" data-name="52.9" transform="translate(329 4085)" fill="#f46353" font-size="18" font-family="MicrosoftYaHei, Microsoft YaHei"><tspan x="0" y="0">52.9</tspan></text>
+      <text id="_56.0" data-name="56.0" transform="translate(373.5 4080.705)" fill="#ffae00" font-size="18" font-family="MicrosoftYaHei, Microsoft YaHei"><tspan x="0" y="0">56.0</tspan></text>
+      <text id="任务2-2" data-name="任务2" transform="translate(440 4205)" fill="#666" font-size="18" font-family="MicrosoftYaHei, Microsoft YaHei"><tspan x="0" y="0">任务2</tspan></text>
+      <rect id="矩形_137-2" data-name="矩形 137" width="20" height="63" transform="translate(463 4101)" fill="#ffae00"/>
+      <rect id="矩形_136-2" data-name="矩形 136" width="20" height="53" transform="translate(433 4111)" fill="#f46353"/>
+      <text id="_42.0" data-name="42.0" transform="translate(426 4096)" fill="#f46353" font-size="18" font-family="MicrosoftYaHei, Microsoft YaHei"><tspan x="0" y="0">42.0</tspan></text>
+      <text id="_48.5" data-name="48.5" transform="translate(466 4088)" fill="#ffae00" font-size="18" font-family="MicrosoftYaHei, Microsoft YaHei"><tspan x="0" y="0">48.5</tspan></text>
+      <text id="任务3-2" data-name="任务3" transform="translate(528 4205)" fill="#666" font-size="18" font-family="MicrosoftYaHei, Microsoft YaHei"><tspan x="0" y="0">任务3</tspan></text>
+      <rect id="矩形_138-2" data-name="矩形 138" width="20" height="91" transform="translate(553 4073)" fill="#ffae00"/>
+      <rect id="矩形_139-2" data-name="矩形 139" width="20" height="73" transform="translate(523 4091)" fill="#f46353"/>
+      <text id="_57.4" data-name="57.4" transform="translate(516 4076)" fill="#f46353" font-size="18" font-family="MicrosoftYaHei, Microsoft YaHei"><tspan x="0" y="0">57.4</tspan></text>
+      <text id="_70.7" data-name="70.7" transform="translate(556 4058)" fill="#ffae00" font-size="18" font-family="MicrosoftYaHei, Microsoft YaHei"><tspan x="0" y="0">70.7</tspan></text>
+      <text id="整体-2" data-name="整体" transform="translate(625 4205)" fill="#666" font-size="18" font-family="MicrosoftYaHei, Microsoft YaHei"><tspan x="0" y="0">整体</tspan></text>
+      <rect id="矩形_140-2" data-name="矩形 140" width="20" height="236" transform="translate(643 3928)" fill="#ffae00"/>
+      <rect id="矩形_141-2" data-name="矩形 141" width="20" height="195" transform="translate(613 3969)" fill="#f46353"/>
+      <text id="_152.3" data-name="152.3" transform="translate(596 3957)" fill="#f46353" font-size="18" font-family="MicrosoftYaHei, Microsoft YaHei"><tspan x="0" y="0">152.3</tspan></text>
+      <text id="_181.7" data-name="181.7" transform="translate(634.5 3917)" fill="#ffae00" font-size="18" font-family="MicrosoftYaHei, Microsoft YaHei"><tspan x="0" y="0">181.7</tspan></text>
+      <line id="直线_9-2" data-name="直线 9" x2="320" transform="translate(343.5 4164.5)" fill="none" stroke="#ccc" stroke-width="1"/>
+    </g>
+    <g id="组_47" data-name="组 47" transform="translate(-55)">
+      <text id="完成度对比_" data-name="完成度对比/%" transform="translate(824.5 3902)" fill="#333" font-size="24" font-family="MicrosoftYaHei-Bold, Microsoft YaHei" font-weight="700"><tspan x="0" y="0">完成度对比/%</tspan></text>
+      <text id="任务1-3" data-name="任务1" transform="translate(840.5 4205)" fill="#666" font-size="18" font-family="MicrosoftYaHei, Microsoft YaHei"><tspan x="0" y="0">任务1</tspan></text>
+      <rect id="矩形_148" data-name="矩形 148" width="20" height="205" transform="translate(861.5 3959)" fill="#ffae00"/>
+      <rect id="矩形_149" data-name="矩形 149" width="20" height="209" transform="translate(831.5 3955)" fill="#f46353"/>
+      <text id="_100" data-name="100" transform="translate(824.5 3947.147)" fill="#f46353" font-size="18" font-family="MicrosoftYaHei, Microsoft YaHei"><tspan x="0" y="0">100</tspan></text>
+      <text id="_98.2" data-name="98.2" transform="translate(862 3942.853)" fill="#ffae00" font-size="18" font-family="MicrosoftYaHei, Microsoft YaHei"><tspan x="0" y="0">98.2</tspan></text>
+      <text id="任务2-3" data-name="任务2" transform="translate(928.5 4205)" fill="#666" font-size="18" font-family="MicrosoftYaHei, Microsoft YaHei"><tspan x="0" y="0">任务2</tspan></text>
+      <rect id="矩形_146" data-name="矩形 146" width="20" height="128.5" transform="translate(951.5 4035.5)" fill="#ffae00"/>
+      <rect id="矩形_147" data-name="矩形 147" width="20" height="202" transform="translate(921.5 3962)" fill="#f46353"/>
+      <text id="_97.2" data-name="97.2" transform="translate(914.5 3951.147)" fill="#f46353" font-size="18" font-family="MicrosoftYaHei, Microsoft YaHei"><tspan x="0" y="0">97.2</tspan></text>
+      <text id="_62.4" data-name="62.4" transform="translate(955.5 4024.147)" fill="#ffae00" font-size="18" font-family="MicrosoftYaHei, Microsoft YaHei"><tspan x="0" y="0">62.4</tspan></text>
+      <text id="任务3-3" data-name="任务3" transform="translate(1016.5 4205)" fill="#666" font-size="18" font-family="MicrosoftYaHei, Microsoft YaHei"><tspan x="0" y="0">任务3</tspan></text>
+      <rect id="矩形_142" data-name="矩形 142" width="20" height="176" transform="translate(1041.5 3988)" fill="#ffae00"/>
+      <rect id="矩形_145" data-name="矩形 145" width="20" height="208.853" transform="translate(1011.5 3955.147)" fill="#f46353"/>
+      <text id="_100-2" data-name="100" transform="translate(1004.5 3948.147)" fill="#f46353" font-size="18" font-family="MicrosoftYaHei, Microsoft YaHei"><tspan x="0" y="0">100</tspan></text>
+      <text id="_85.1" data-name="85.1" transform="translate(1044.5 3981)" fill="#ffae00" font-size="18" font-family="MicrosoftYaHei, Microsoft YaHei"><tspan x="0" y="0">85.1</tspan></text>
+      <text id="整体-3" data-name="整体" transform="translate(1113.5 4205)" fill="#666" font-size="18" font-family="MicrosoftYaHei, Microsoft YaHei"><tspan x="0" y="0">整体</tspan></text>
+      <rect id="矩形_143" data-name="矩形 143" width="20" height="171" transform="translate(1131.5 3993)" fill="#ffae00"/>
+      <rect id="矩形_144" data-name="矩形 144" width="20" height="206" transform="translate(1101.5 3958)" fill="#f46353"/>
+      <text id="_99.1" data-name="99.1" transform="translate(1099 3947)" fill="#f46353" font-size="18" font-family="MicrosoftYaHei, Microsoft YaHei"><tspan x="0" y="0">99.1</tspan></text>
+      <text id="_81.9" data-name="81.9" transform="translate(1135 3983)" fill="#ffae00" font-size="18" font-family="MicrosoftYaHei, Microsoft YaHei"><tspan x="0" y="0">81.9</tspan></text>
+      <line id="直线_10" data-name="直线 10" x2="321" transform="translate(832 4164.5)" fill="none" stroke="#ccc" stroke-width="1"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,172 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1649" height="379" viewBox="0 0 1649 379">
+  <g id="组_39" data-name="组 39" transform="translate(0 -2123)">
+    <g id="矩形_71" data-name="矩形 71" transform="translate(0 2129)" fill="#f46353" stroke="#fff" stroke-width="1">
+      <rect width="80" height="56" stroke="none"/>
+      <rect x="0.5" y="0.5" width="79" height="55" fill="none"/>
+    </g>
+    <g id="矩形_72" data-name="矩形 72" transform="translate(580 2129)" fill="#f46353" stroke="#fff" stroke-width="1">
+      <rect width="160" height="56" stroke="none"/>
+      <rect x="0.5" y="0.5" width="159" height="55" fill="none"/>
+    </g>
+    <g id="矩形_73" data-name="矩形 73" transform="translate(0 2185)" fill="rgba(244,99,83,0.2)" stroke="#fff" stroke-width="1">
+      <rect width="80" height="105" stroke="none"/>
+      <rect x="0.5" y="0.5" width="79" height="104" fill="none"/>
+    </g>
+    <g id="矩形_74" data-name="矩形 74" transform="translate(580 2185)" fill="rgba(244,99,83,0.2)" stroke="#fff" stroke-width="1">
+      <rect width="160" height="105" stroke="none"/>
+      <rect x="0.5" y="0.5" width="159" height="104" fill="none"/>
+    </g>
+    <g id="矩形_77" data-name="矩形 77" transform="translate(0 2290)" fill="rgba(244,99,83,0.2)" stroke="#fff" stroke-width="1">
+      <rect width="80" height="104" stroke="none"/>
+      <rect x="0.5" y="0.5" width="79" height="103" fill="none"/>
+    </g>
+    <g id="矩形_78" data-name="矩形 78" transform="translate(580 2290)" fill="rgba(244,99,83,0.2)" stroke="#fff" stroke-width="1">
+      <rect width="160" height="104" stroke="none"/>
+      <rect x="0.5" y="0.5" width="159" height="103" fill="none"/>
+    </g>
+    <g id="矩形_85" data-name="矩形 85" transform="translate(0 2394)" fill="rgba(244,99,83,0.2)" stroke="#fff" stroke-width="1">
+      <rect width="80" height="105" stroke="none"/>
+      <rect x="0.5" y="0.5" width="79" height="104" fill="none"/>
+    </g>
+    <g id="矩形_86" data-name="矩形 86" transform="translate(580 2394)" fill="rgba(244,99,83,0.2)" stroke="#fff" stroke-width="1">
+      <rect width="160" height="105" stroke="none"/>
+      <rect x="0.5" y="0.5" width="159" height="104" fill="none"/>
+    </g>
+    <g id="矩形_93" data-name="矩形 93" transform="translate(80 2129)" fill="#f46353" stroke="#fff" stroke-width="1">
+      <rect width="500" height="56" stroke="none"/>
+      <rect x="0.5" y="0.5" width="499" height="55" fill="none"/>
+    </g>
+    <g id="矩形_94" data-name="矩形 94" transform="translate(80 2185)" fill="rgba(244,99,83,0.2)" stroke="#fff" stroke-width="1">
+      <rect width="500" height="105" stroke="none"/>
+      <rect x="0.5" y="0.5" width="499" height="104" fill="none"/>
+    </g>
+    <g id="矩形_96" data-name="矩形 96" transform="translate(80 2290)" fill="rgba(244,99,83,0.2)" stroke="#fff" stroke-width="1">
+      <rect width="500" height="104" stroke="none"/>
+      <rect x="0.5" y="0.5" width="499" height="103" fill="none"/>
+    </g>
+    <g id="矩形_100" data-name="矩形 100" transform="translate(80 2394)" fill="rgba(244,99,83,0.2)" stroke="#fff" stroke-width="1">
+      <rect width="500" height="105" stroke="none"/>
+      <rect x="0.5" y="0.5" width="499" height="104" fill="none"/>
+    </g>
+    <text id="任务1" transform="translate(40 2244)" fill="#333" font-size="20" font-family="PingFang SC Medium, PingFang SC"><tspan x="-26" y="0">任务1</tspan></text>
+    <text id="任务2" transform="translate(40 2349)" fill="#333" font-size="20" font-family="PingFang SC Medium, PingFang SC"><tspan x="-26" y="0">任务2</tspan></text>
+    <text id="任务3" transform="translate(40 2453)" fill="#333" font-size="20" font-family="PingFang SC Medium, PingFang SC"><tspan x="-26" y="0">任务3</tspan></text>
+    <text id="搜索_筛选_选择商品" data-name="搜索，筛选，选择商品" transform="translate(591 2210)" fill="#333" font-size="20" font-family="PingFang SC Medium, PingFang SC"><tspan x="0" y="21">搜索，筛选，</tspan><tspan x="0" y="47">选择商品</tspan></text>
+    <text id="商品图片_描述_顾客反馈_" data-name="商品图片、描述；顾客反馈；" transform="translate(590 2311)" fill="#333" font-size="20" font-family="PingFang SC Medium, PingFang SC"><tspan x="0" y="21">商品图片、描述；</tspan><tspan x="0" y="47">顾客反馈；</tspan></text>
+    <text id="尺码和合身判断_配送_退货信息" data-name="尺码和合身判断；配送/退货信息" transform="translate(590 2416)" fill="#333" font-size="20" font-family="PingFang SC Medium, PingFang SC"><tspan x="0" y="21">尺码和合身判</tspan><tspan x="0" y="47">断；配送/退货</tspan></text>
+    <text id="假设你的朋友茜茜下周要过生日_你想从CB购买一件合适的T恤作为礼物送给她_请从首页出发_挑选商品" data-name="假设你的朋友茜茜下周要过生日，你想从CB购买一件合适的T恤作为礼物送给她，请从首页出发，挑选商品" transform="translate(93 2210)" fill="#333" font-size="20" font-family="PingFang SC Medium, PingFang SC"><tspan x="0" y="21">假设你的朋友茜茜下周要过生日，你想从CB购买一件</tspan><tspan x="0" y="47">合适的T恤作为礼物送给她，请从首页出发，挑选商品</tspan></text>
+    <text id="茜茜高165_重52公斤_请你查看选中的商品_对比他人的评价_判断是否适合她" data-name="茜茜高165，重52公斤，请你查看选中的商品，对比他人的评价，判断是否适合她" transform="translate(93 2314)" fill="#333" font-size="20" font-family="PingFang SC Medium, PingFang SC"><tspan x="0" y="21">茜茜高165，重52公斤，请你查看选中的商品，对比</tspan><tspan x="0" y="47">他人的评价，判断是否适合她</tspan></text>
+    <text id="茜茜高165_重52公斤_请判断是否有适合她的尺寸_确定后请了解配送和售后_尝试下单" data-name="茜茜高165，重52公斤，请判断是否有适合她的尺寸，确定后请了解配送和售后，尝试下单" transform="translate(93 2419)" fill="#333" font-size="20" font-family="PingFang SC Medium, PingFang SC"><tspan x="0" y="21">茜茜高165，重52公斤，请判断是否有适合她的尺</tspan><tspan x="0" y="47">寸，确定后请了解配送和售后，尝试下单</tspan></text>
+    <text id="场景" transform="translate(307 2166)" fill="#fff" font-size="23" font-family="PingFang SC Bold, PingFang SC"><tspan x="0" y="0">场景</tspan></text>
+    <text id="任务" transform="translate(18 2165)" fill="#fff" font-size="22" font-family="PingFang SC Bold, PingFang SC"><tspan x="0" y="0">任务</tspan></text>
+    <text id="测试功能" transform="translate(662 2166)" fill="#fff" font-size="23" font-family="PingFang SC Bold, PingFang SC"><tspan x="-46" y="0">测试功能</tspan></text>
+    <text id="任务1-2" data-name="任务1" transform="translate(846 2497)" fill="#666" font-size="20" font-family="MicrosoftYaHei, Microsoft YaHei"><tspan x="0" y="0">任务1</tspan></text>
+    <text id="任务1-3" data-name="任务1" transform="translate(1152 2497)" fill="#666" font-size="20" font-family="MicrosoftYaHei, Microsoft YaHei"><tspan x="0" y="0">任务1</tspan></text>
+    <text id="任务1-4" data-name="任务1" transform="translate(1455 2497)" fill="#666" font-size="20" font-family="MicrosoftYaHei, Microsoft YaHei"><tspan x="0" y="0">任务1</tspan></text>
+    <text id="任务2-2" data-name="任务2" transform="translate(917 2497)" fill="#666" font-size="20" font-family="MicrosoftYaHei, Microsoft YaHei"><tspan x="0" y="0">任务2</tspan></text>
+    <text id="任务2-3" data-name="任务2" transform="translate(1223 2497)" fill="#666" font-size="20" font-family="MicrosoftYaHei, Microsoft YaHei"><tspan x="0" y="0">任务2</tspan></text>
+    <text id="任务2-4" data-name="任务2" transform="translate(1526 2497)" fill="#666" font-size="20" font-family="MicrosoftYaHei, Microsoft YaHei"><tspan x="0" y="0">任务2</tspan></text>
+    <text id="任务3-2" data-name="任务3" transform="translate(988 2497)" fill="#666" font-size="20" font-family="MicrosoftYaHei, Microsoft YaHei"><tspan x="0" y="0">任务3</tspan></text>
+    <text id="任务3-3" data-name="任务3" transform="translate(1294 2497)" fill="#666" font-size="20" font-family="MicrosoftYaHei, Microsoft YaHei"><tspan x="0" y="0">任务3</tspan></text>
+    <text id="任务3-4" data-name="任务3" transform="translate(1597 2497)" fill="#666" font-size="20" font-family="MicrosoftYaHei, Microsoft YaHei"><tspan x="0" y="0">任务3</tspan></text>
+    <text id="_100" data-name="100" transform="translate(808 2219)" fill="#666" font-size="16" font-family="MicrosoftYaHei, Microsoft YaHei"><tspan x="0" y="0">100</tspan></text>
+    <text id="_100-2" data-name="100" transform="translate(1113 2219)" fill="#666" font-size="16" font-family="MicrosoftYaHei, Microsoft YaHei"><tspan x="0" y="0">100</tspan></text>
+    <text id="_1.0" data-name="1.0" transform="translate(1416 2219)" fill="#666" font-size="16" font-family="MicrosoftYaHei, Microsoft YaHei"><tspan x="0" y="0">1.0</tspan></text>
+    <text id="_80" data-name="80" transform="translate(808 2268)" fill="#666" font-size="16" font-family="MicrosoftYaHei, Microsoft YaHei"><tspan x="0" y="0">80</tspan></text>
+    <text id="_80-2" data-name="80" transform="translate(1113 2268)" fill="#666" font-size="16" font-family="MicrosoftYaHei, Microsoft YaHei"><tspan x="0" y="0">80</tspan></text>
+    <text id="_0.8" data-name="0.8" transform="translate(1416 2268)" fill="#666" font-size="16" font-family="MicrosoftYaHei, Microsoft YaHei"><tspan x="0" y="0">0.8</tspan></text>
+    <text id="_60" data-name="60" transform="translate(808 2317)" fill="#666" font-size="16" font-family="MicrosoftYaHei, Microsoft YaHei"><tspan x="0" y="0">60</tspan></text>
+    <text id="_60-2" data-name="60" transform="translate(1113 2317)" fill="#666" font-size="16" font-family="MicrosoftYaHei, Microsoft YaHei"><tspan x="0" y="0">60</tspan></text>
+    <text id="_0.6" data-name="0.6" transform="translate(1416 2317)" fill="#666" font-size="16" font-family="MicrosoftYaHei, Microsoft YaHei"><tspan x="0" y="0">0.6</tspan></text>
+    <text id="_40" data-name="40" transform="translate(808 2367)" fill="#666" font-size="16" font-family="MicrosoftYaHei, Microsoft YaHei"><tspan x="0" y="0">40</tspan></text>
+    <text id="_40-2" data-name="40" transform="translate(1113 2367)" fill="#666" font-size="16" font-family="MicrosoftYaHei, Microsoft YaHei"><tspan x="0" y="0">40</tspan></text>
+    <text id="_0.4" data-name="0.4" transform="translate(1416 2367)" fill="#666" font-size="16" font-family="MicrosoftYaHei, Microsoft YaHei"><tspan x="0" y="0">0.4</tspan></text>
+    <text id="_20" data-name="20" transform="translate(808 2416)" fill="#666" font-size="16" font-family="MicrosoftYaHei, Microsoft YaHei"><tspan x="0" y="0">20</tspan></text>
+    <text id="_20-2" data-name="20" transform="translate(1113 2416)" fill="#666" font-size="16" font-family="MicrosoftYaHei, Microsoft YaHei"><tspan x="0" y="0">20</tspan></text>
+    <text id="_0.2" data-name="0.2" transform="translate(1416 2416)" fill="#666" font-size="16" font-family="MicrosoftYaHei, Microsoft YaHei"><tspan x="0" y="0">0.2</tspan></text>
+    <text id="_0" data-name="0" transform="translate(809 2465)" fill="#666" font-size="16" font-family="MicrosoftYaHei, Microsoft YaHei"><tspan x="0" y="0">0</tspan></text>
+    <text id="_0-2" data-name="0" transform="translate(1114 2465)" fill="#666" font-size="16" font-family="MicrosoftYaHei, Microsoft YaHei"><tspan x="0" y="0">0</tspan></text>
+    <text id="_0-3" data-name="0" transform="translate(1417 2465)" fill="#666" font-size="16" font-family="MicrosoftYaHei, Microsoft YaHei"><tspan x="0" y="0">0</tspan></text>
+    <text id="任务耗时_s" data-name="任务耗时/s" transform="translate(808 2148)" fill="#333" font-size="24" font-family="MicrosoftYaHei-Bold, Microsoft YaHei" font-weight="700"><tspan x="0" y="0">任务耗时/s</tspan></text>
+    <text id="完成度_" data-name="完成度/%" transform="translate(1113 2148)" fill="#333" font-size="24" font-family="MicrosoftYaHei-Bold, Microsoft YaHei" font-weight="700"><tspan x="0" y="0">完成度/%</tspan></text>
+    <text id="平均犯错数_个" data-name="平均犯错数/个" transform="translate(1416 2148)" fill="#333" font-size="24" font-family="MicrosoftYaHei-Bold, Microsoft YaHei" font-weight="700"><tspan x="0" y="0">平均犯错数/个</tspan></text>
+    <path id="路径_28" data-name="路径 28" d="M0,0H172.632" transform="translate(856 2460.526)" fill="none" stroke="#ccc" stroke-width="1"/>
+    <path id="路径_41" data-name="路径 41" d="M0,0H172.632" transform="translate(1161 2460.526)" fill="none" stroke="#ccc" stroke-width="1"/>
+    <path id="路径_52" data-name="路径 52" d="M0,0H172.632" transform="translate(1464 2460.526)" fill="none" stroke="#ccc" stroke-width="1"/>
+    <path id="路径_37" data-name="路径 37" d="M0,0H172.632" transform="translate(856 2361.509)" fill="none" stroke="#ccc" stroke-width="1"/>
+    <path id="路径_42" data-name="路径 42" d="M0,0H172.632" transform="translate(1161 2361.509)" fill="none" stroke="#ccc" stroke-width="1"/>
+    <path id="路径_53" data-name="路径 53" d="M0,0H172.632" transform="translate(1464 2361.509)" fill="none" stroke="#ccc" stroke-width="1"/>
+    <path id="路径_39" data-name="路径 39" d="M0,0H172.632" transform="translate(856 2262.491)" fill="none" stroke="#ccc" stroke-width="1"/>
+    <path id="路径_44" data-name="路径 44" d="M0,0H172.632" transform="translate(1161 2262.491)" fill="none" stroke="#ccc" stroke-width="1"/>
+    <path id="路径_48" data-name="路径 48" d="M0,0H172.632" transform="translate(1464 2262.491)" fill="none" stroke="#ccc" stroke-width="1"/>
+    <path id="路径_35" data-name="路径 35" d="M0,0H172.632" transform="translate(856 2410.571)" fill="none" stroke="#ccc" stroke-width="1"/>
+    <path id="路径_43" data-name="路径 43" d="M0,0H172.632" transform="translate(1161 2410.571)" fill="none" stroke="#ccc" stroke-width="1"/>
+    <path id="路径_54" data-name="路径 54" d="M0,0H172.632" transform="translate(1464 2410.571)" fill="none" stroke="#ccc" stroke-width="1"/>
+    <path id="路径_36" data-name="路径 36" d="M0,0H172.632" transform="translate(856 2312.446)" fill="none" stroke="#ccc" stroke-width="1"/>
+    <path id="路径_45" data-name="路径 45" d="M0,0H172.632" transform="translate(1161 2312.446)" fill="none" stroke="#ccc" stroke-width="1"/>
+    <path id="路径_49" data-name="路径 49" d="M0,0H172.632" transform="translate(1464 2312.446)" fill="none" stroke="#ccc" stroke-width="1"/>
+    <path id="路径_38" data-name="路径 38" d="M0,0H172.632" transform="translate(856 2213.429)" fill="none" stroke="#ccc" stroke-width="1"/>
+    <path id="路径_46" data-name="路径 46" d="M0,0H172.632" transform="translate(1161 2213.429)" fill="none" stroke="#ccc" stroke-width="1"/>
+    <path id="路径_50" data-name="路径 50" d="M0,0H172.632" transform="translate(1464 2213.429)" fill="none" stroke="#ccc" stroke-width="1"/>
+    <g id="组_23" data-name="组 23" transform="translate(10 -30)">
+      <g id="组_22" data-name="组 22" transform="translate(-22.5)" opacity="0.96">
+        <rect id="矩形_49" data-name="矩形 49" width="30" height="85" transform="translate(869 2332)" fill="#f46353"/>
+        <line id="直线_5" data-name="直线 5" y2="264.938" transform="translate(883.5 2225.588)" fill="none" stroke="#f46353" stroke-width="1"/>
+        <path id="路径_29" data-name="路径 29" d="M0,0H30" transform="translate(868.5 2225.588)" fill="none" stroke="#f46353" stroke-width="1"/>
+        <path id="路径_30" data-name="路径 30" d="M0,0H30" transform="translate(868.5 2490.08)" fill="none" stroke="#f46353" stroke-width="1"/>
+      </g>
+      <text id="_48" data-name="48" transform="translate(849.75 2377)" fill="#fff" font-size="20" font-family="MicrosoftYaHei, Microsoft YaHei"><tspan x="0" y="0">48</tspan></text>
+    </g>
+    <g id="组_22-2" data-name="组 22" transform="translate(292.5 -12.159)" opacity="0.96">
+      <rect id="矩形_49-2" data-name="矩形 49" width="30" height="2.057" transform="translate(869 2228.164)" fill="#f46353"/>
+      <line id="直线_5-2" data-name="直线 5" y2="6.412" transform="translate(883.5 2225.588)" fill="none" stroke="#f46353" stroke-width="1"/>
+      <path id="路径_29-2" data-name="路径 29" d="M0,0H30" transform="translate(868.5 2225.588)" fill="none" stroke="#f46353" stroke-width="1"/>
+      <path id="路径_30-2" data-name="路径 30" d="M0,0H30" transform="translate(868.5 2231.989)" fill="none" stroke="#f46353" stroke-width="1"/>
+    </g>
+    <text id="_100-3" data-name="100" transform="translate(1176 2246)" fill="#f46353" font-size="20" font-family="MicrosoftYaHei, Microsoft YaHei"><tspan x="-17.593" y="0">100</tspan></text>
+    <g id="组_24" data-name="组 24" transform="translate(-17.5 -30)">
+      <g id="组_20" data-name="组 20" transform="translate(944.5 2337.094)" opacity="0.8">
+        <line id="直线_6" data-name="直线 6" y2="153.432" transform="translate(15)" fill="none" stroke="#f46353" stroke-width="1" opacity="0.7"/>
+        <path id="路径_32" data-name="路径 32" d="M0,0H30" fill="#f46353" stroke="#f46353" stroke-width="1" opacity="0.7"/>
+        <path id="路径_31" data-name="路径 31" d="M0,0H30" transform="translate(0 152.986)" fill="#f46353" stroke="#f46353" stroke-width="1" opacity="0.7"/>
+        <rect id="矩形_102" data-name="矩形 102" width="30" height="57" transform="translate(0.5 20.906)" fill="#f46353"/>
+      </g>
+      <text id="_45" data-name="45" transform="translate(959.75 2391)" fill="#fff" font-size="20" font-family="MicrosoftYaHei, Microsoft YaHei"><tspan x="-11.729" y="0">45</tspan></text>
+    </g>
+    <g id="组_26" data-name="组 26" transform="translate(287.5 -123.665)">
+      <g id="组_20-2" data-name="组 20" transform="translate(944.5 2337.094)" opacity="0.8">
+        <line id="直线_6-2" data-name="直线 6" y2="167.03" transform="translate(15)" fill="none" stroke="#f46353" stroke-width="1" opacity="0.7"/>
+        <path id="路径_32-2" data-name="路径 32" d="M0,0H30" fill="#f46353" stroke="#f46353" stroke-width="1" opacity="0.7"/>
+        <path id="路径_31-2" data-name="路径 31" d="M0,0H30" transform="translate(0 166.584)" fill="#f46353" stroke="#f46353" stroke-width="1" opacity="0.7"/>
+        <rect id="矩形_102-2" data-name="矩形 102" width="30" height="70" transform="translate(0 79.906)" fill="#f46353"/>
+      </g>
+      <text id="_62" data-name="62" transform="translate(948 2441.609)" fill="#fff" font-size="20" font-family="MicrosoftYaHei, Microsoft YaHei"><tspan x="0" y="0">62</tspan></text>
+    </g>
+    <rect id="矩形_102-3" data-name="矩形 102" width="30" height="147.972" transform="translate(1535.5 2312.554)" fill="#f46353" opacity="0.8"/>
+    <text id="_0.60" data-name="0.60" transform="translate(1550.5 2297.972)" fill="#f46353" font-size="20" font-family="MicrosoftYaHei, Microsoft YaHei"><tspan x="-20" y="0">0.60</tspan></text>
+    <g id="组_25" data-name="组 25" transform="translate(10 -30)">
+      <g id="组_21" data-name="组 21" transform="translate(988.132 2271.082)" opacity="0.6">
+        <line id="直线_7" data-name="直线 7" y2="96.341" transform="translate(15 0)" fill="none" stroke="#f46353" stroke-width="1"/>
+        <path id="路径_34" data-name="路径 34" d="M0,0H30" transform="translate(0 0)" fill="#f46353" stroke="#f46353" stroke-width="1"/>
+        <path id="路径_33" data-name="路径 33" d="M0,0H30" transform="translate(0 96.787)" fill="#f46353" stroke="#f46353" stroke-width="1"/>
+        <rect id="矩形_103" data-name="矩形 103" width="30" height="50.847" transform="translate(0.5 32.56)" fill="#f46353"/>
+      </g>
+      <text id="_66" data-name="66" transform="translate(1003 2335)" fill="#fff" font-size="20" font-family="MicrosoftYaHei, Microsoft YaHei"><tspan x="-11.729" y="0">66</tspan></text>
+    </g>
+    <g id="组_28" data-name="组 28" transform="translate(314.868 -57.653)">
+      <g id="组_21-2" data-name="组 21" transform="translate(988.132 2271.082)" opacity="0.6">
+        <line id="直线_7-2" data-name="直线 7" y2="83.587" transform="translate(15 0)" fill="none" stroke="#f46353" stroke-width="1"/>
+        <path id="路径_34-2" data-name="路径 34" d="M0,0H30" transform="translate(0 0)" fill="#f46353" stroke="#f46353" stroke-width="1"/>
+        <path id="路径_33-2" data-name="路径 33" d="M0,0H30" transform="translate(0 84.033)" fill="#f46353" stroke="#f46353" stroke-width="1"/>
+        <rect id="矩形_103-2" data-name="矩形 103" width="30" height="83.587" transform="translate(0.5 0)" fill="#f46353"/>
+      </g>
+      <text id="_85" data-name="85" transform="translate(1003.132 2319.099)" fill="#fff" font-size="20" font-family="MicrosoftYaHei, Microsoft YaHei"><tspan x="-11.729" y="0">85</tspan></text>
+    </g>
+    <g id="组_21-3" data-name="组 21" transform="translate(1606 2190.491)" opacity="0.6">
+      <rect id="矩形_103-3" data-name="矩形 103" width="30" height="198.034" transform="translate(0 72)" fill="#f46353"/>
+    </g>
+    <text id="_0.80" data-name="0.80" transform="translate(1622 2253.401)" fill="#f46353" font-size="20" font-family="MicrosoftYaHei, Microsoft YaHei"><tspan x="-20" y="0">0.80</tspan></text>
+    <rect id="矩形_104" data-name="矩形 104" width="30" height="188.526" transform="translate(1464 2272)" fill="#f46353"/>
+    <text id="_0.73" data-name="0.73" transform="translate(1479 2257)" fill="#f46353" font-size="20" font-family="MicrosoftYaHei, Microsoft YaHei"><tspan x="-20" y="0">0.73</tspan></text>
+  </g>
+</svg>
