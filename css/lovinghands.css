@@ -1,0 +1,402 @@
+* {
+    box-sizing: border-box;
+    margin: 0 0 0;
+}
+
+/* 重置链接样式 */
+a {
+    text-decoration: none;
+}
+
+a:link {
+    text-decoration: none;
+    color: #000000;
+}
+
+a:active {
+    text-decoration: blink;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #000000
+}
+
+a:hover {
+    text-decoration: none;
+    color: #a883ff;
+}
+
+/* 重置文本样式 */
+h1 {
+    font-size: 40px;
+    color: #3b3b3d;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 28px;
+    color: #f46352;
+    letter-spacing: 3px;
+    font-weight: 600;
+    line-height: 34px;
+}
+
+h3 {
+    font-size: 20px;
+    color: #3b3b3d;
+    letter-spacing: 2px;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+h4 {
+    font-size: 16px;
+    color: #3b3b3d;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.en_h2 {
+    line-height: 30px;
+    font-size: 16px;
+    color: #f46352;
+}
+
+.en_h3 {
+    line-height: 24px;
+    font-size: 14px;
+    color: #3b3b3d;
+    letter-spacing: 0px;
+}
+
+p {
+    color: #333333;
+    line-height: 30px;
+    font-size: 16px;
+}
+
+.text {
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.en_style {
+    color: #999999;
+    line-height: 26px;
+    font-size: 14px;
+}
+
+.h3 {
+    width: 180px;
+}
+
+
+/* header */
+.header {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    height: 60px;
+    width: 100%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+    background-color: rgba(255, 255, 255, 0.8)
+}
+
+.header_main {
+    position: relative;
+    margin: 0 auto;
+}
+
+.logo {
+    float: left;
+    top: 0;
+    height: 60px;
+    width: 60px;
+    margin-top: -60px;
+    padding: 8px 0 10px;
+    opacity: 0.8;
+}
+
+.topnav {
+    position: relative;
+    text-align: right;
+}
+
+.work,
+.blog,
+.resume,
+.about {
+    text-align: center;
+    line-height: 60px;
+    margin-left: 60px;
+    list-style: none;
+    display: inline-block;
+}
+
+/* content */
+#content {
+    margin: 0 auto;
+    padding: 60px 0 0;
+}
+
+/* overall */
+.overall {
+    margin: 0 auto;
+    padding: 4% 0 6%;
+    text-align: center;
+}
+
+.project_information {
+    margin: 2% 0 1%;
+    padding: 30px;
+    text-align: center;
+}
+
+.table_title {
+    color: #888888;
+}
+
+.table_content {
+    margin-right: 6%;
+    letter-spacing: 0.5px;
+    color: #666666;
+}
+
+.heroshot>img {
+    display: block;
+    margin: 0 auto;
+    padding: 0 0 5%;
+    max-width: 80%;
+}
+
+.brief {
+    padding: 0 0 3%;
+}
+
+
+
+/* background */
+.background {
+    padding: 6% 0 6%;
+    background-color: #254C28;
+    background-image: url(../src/img/png/cb_background.png);
+}
+
+.background_content {
+    padding: 0 12% 0;
+}
+
+.background_content>h2 {
+    text-align: center;
+    padding: 0 0 4%;
+    color: #ffffff;
+}
+
+.background_content>h2>p {
+    color: #ffffff;
+}
+
+.background_introduction {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 6% 0;
+    text-align: left;
+}
+
+.background_introduction>p {
+    color: rgba(255, 255, 255, 0.85);
+}
+
+
+
+
+/* images */
+.images{
+    padding: 6% 0 6%;
+    max-width:100%;
+}
+
+
+/* footer */
+footer {
+    position: absolute;
+    height: 300px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.footer_main {
+    display: flex;
+    max-width: 1600px;
+    margin: 0 auto;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.footer_work,
+.footer_blog,
+.footer_resume {
+    margin: 50px 0 0;
+    min-width: 300px;
+}
+
+.footer_about {
+    margin: 50px 0 0;
+    right: 0;
+}
+
+.title {
+    margin: 0 0 12px;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 1);
+    line-height: 28px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    padding-right: 200px;
+    font-size: 14px;
+    ;
+    color: rgba(255, 255, 255, 0.5);
+    line-height: 46px;
+}
+
+.item>a:link {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.item>a:visited {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.item>a:hover {
+    color: #a883ff;
+}
+
+.about_me {
+    margin: 0 0 40px;
+    font-size: 14px;
+    ;
+    color: rgba(255, 255, 255, 0.5);
+    line-height: 28px;
+}
+
+.footer_media {
+    display: flex;
+}
+
+.footer_media>a {
+    width: auto;
+    height: 100%;
+    margin-right: 20px;
+}
+
+.footer_media>a:link {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.footer_media>a:visited {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.footer_media>a:hover {
+    color: #a883ff;
+}
+
+.footer_copyright {
+    margin: 0 auto;
+    text-align: center;
+    margin: 40px 0 0;
+    font-size: 14px;
+    color: #aaaaaa;
+}
+
+/* 响应式 */
+@media screen and (max-width: 600px) {
+
+    .header_main,
+    .color,
+    .footer_main {
+        max-width: 600px;
+    }
+
+    .topnav {
+        width: 60px;
+        height: 60px;
+        position: absolute;
+        top: 0;
+        left: auto;
+        right: 0;
+        background: rgba(255, 255, 255, 1)url(https://www.easyicon.net/api/resizeApi.php?id=1225479&size=32) no-repeat 10px 11px;
+    }
+
+    .work,
+    .blog,
+    .resume,
+    .about {
+        display: none;
+        /* hide all <li> items */
+        margin: 0;
+    }
+
+    /* on nav hover */
+    .topnav:hover {
+        width: 150px;
+        height: 240px;
+        background-image: none;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+    }
+
+    .topnav:hover li {
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+
+    .article {
+        flex-basis: 100%;
+    }
+}
+
+@media screen and (min-width: 600px) {
+
+    .header_main,
+    .color,
+    .footer_main {
+        min-width: 600px;
+    }
+
+    .article {
+        flex-basis: 48%;
+    }
+}
+
+@media screen and (min-width: 900px) {
+
+    .header_main,
+    .color,
+    .footer_main {
+        max-width: 1200px;
+    }
+
+    .article {
+        flex-basis: 32%;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+
+    .header_main,
+    .color,
+    .footer_main {
+        max-width: 1600px;
+    }
+
+    .article {
+        flex-basis: 23.8%;
+    }
+}
