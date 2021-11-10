@@ -410,8 +410,21 @@ p {
     font-size: 14px;
 }
 
-/* part9 */
-.part9>img {
+
+/* part9part10 */
+.part9,.part10 {
+    margin: 0 auto;
+    padding: 5%;
+}
+
+.part9>img,.part10>img {
+    max-width: 100%;
+    padding-bottom: 5%;
+}
+
+
+/* part11 */
+.part11>img {
     max-width: 100%;
 }
 
